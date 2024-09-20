@@ -13,30 +13,38 @@ Features
 
 Project Structure
 -----------------
-`kelly_pets/
-│
-├── lib/
-│   ├── database_connection.py       # Handles database connection logic
-│   ├── ingest_from_api.py           # Function to ingest data from APIs
-│   ├── ingest_from_csv.py           # Function to ingest data from CSV
-│   ├── ingest_from_xlsx.py          # Function to ingest data from XLSX
-│   ├── ingest_new_data.py           # Main data ingestion logic
-│   ├── load_new_data.py             # Logic to load data into the database
-│   └── validate_data.py             # Data validation logic
-│
-├── mock_data/                       # Directory for mock datasets
-│   ├── claim_details.json           # Mock claim details in JSON format
-│   ├── missing_pet_details.csv      # CSV file with missing fields for validation tests
-│   ├── pet_details.csv              # Complete pet details CSV
-│   └── policy_data.xlsx             # Insurance policy details in XLSX format
-│
-└── tests/                           # Unit tests for different components
-    ├── test_ingest_from_api.py      # Test for API ingestion
-    ├── test_ingest_from_csv.py      # Test for CSV ingestion
-    ├── test_ingest_from_xlsx.py     # Test for XLSX ingestion
-    ├── test_ingest_new_data.py      # Test for ingesting all formats
-    ├── test_load_new_data.py        # Test for loading data into the database
-    └── test_validate_data.py        # Test for validating missing data`
+
+**kelly_pets/**
+This is the main directory of the project. It contains all the necessary scripts, mock data, and tests required to run the data pipeline.
+
+**lib/**
+This folder contains the core logic for data ingestion, validation, and loading. The individual files handle specific aspects of the data pipeline.
+
+    database_connection.py: Manages the logic for connecting to the database (e.g., PostgreSQL).
+    ingest_from_api.py: Handles ingestion of data from API sources.
+    ingest_from_csv.py: Contains logic for ingesting data from CSV files.
+    ingest_from_xlsx.py: Contains logic for ingesting data from XLSX files (Excel format).
+    ingest_new_data.py: The main ingestion script that orchestrates the overall ingestion process from multiple sources.
+    load_new_data.py: Responsible for loading the cleaned and validated data into the SQL database.
+    validate_data.py: Performs validation checks on the data (e.g., ensuring no missing fields).
+    
+**mock_data/**
+This folder holds mock datasets that simulate real-world data inputs to test the ingestion and validation processes.
+
+    claim_details.json: Mock vet claim details in JSON format.
+    missing_pet_details.csv: A CSV file containing mock pet details with missing fields, used for validation testing.
+    pet_details.csv: A CSV file with complete pet details for regular data ingestion.
+    policy_data.xlsx: An Excel file containing mock insurance policy data for pets.
+
+**tests/**
+This folder contains unit tests to validate the functionality of the different components in the data pipeline.
+
+    test_ingest_from_api.py: Tests the ingestion of data from APIs.
+    test_ingest_from_csv.py: Tests the ingestion of data from CSV files.
+    test_ingest_from_xlsx.py: Tests the ingestion of data from XLSX files.
+    test_ingest_new_data.py: Tests the overall ingestion logic from multiple sources (CSV, XLSX, API).
+    test_load_new_data.py: Tests the loading of ingested data into the SQL database.
+    test_validate_data.py: Tests the validation logic, ensuring that rows with missing or invalid fields are handled correctly.
 
 Getting Started
 ---------------
