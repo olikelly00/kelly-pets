@@ -54,23 +54,24 @@ Ensure you have the following installed:
 1.  **Clone the repository**:
 
     `git clone https://github.com/yourusername/kelly_pets.git
+    
     cd kelly_pets`
 
-2.  **Install dependencies** using Pipenv:
+3.  **Install dependencies** using Pipenv:
 
     `pipenv install`
 
-3.  **Set up your local database**:
+4.  **Set up your local database**:
 
     -   Create a local PostgreSQL database to store the pet data.
     -   Update your database connection details in `database_connection.py`.
-4.  **Run the tests**: You can run the unit tests to validate the functionality.
+5.  **Run the tests**: You can run the unit tests to validate the functionality.
 
     `pipenv run pytest`
 
-5.  **Ingest data**: You can ingest data from CSV, XLSX, and API formats using the ingestion scripts in the `lib` folder.
+6.  **Ingest data**: You can ingest data from CSV, XLSX, and API formats using the ingestion scripts in the `lib` folder.
 
-6.  **Mock JSON API**: To mock vet claim data, you can use the companion API project, [Kelly Vets API](https://github.com/olikelly00/kelly-vets-api). Follow the instructions in that repo to set up the API locally.
+7.  **Mock JSON API**: To mock vet claim data, you can use the companion API project, [Kelly Vets API](https://github.com/olikelly00/kelly-vets-api). Follow the instructions in that repo to set up the API locally.
 
 ### Key Skills Developed
 
