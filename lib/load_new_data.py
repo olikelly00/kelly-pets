@@ -3,6 +3,7 @@ from ingest_from_csv import *
 from ingest_from_xlsx import *
 from ingest_from_api import *
 from ingest_new_data import *
+from validate_data import *
 
 
 def load_new_data(extracted_data, table_name):
@@ -16,14 +17,14 @@ def load_new_data(extracted_data, table_name):
     column_names = ', '.join(column_names)
     values_placeholder = ', '.join(["%s" for _ in column_names.split(", ")])
     for row in extracted_data:
-        query = f"INSERT INTO {table_name} ({column_names}) VALUES ({values_placeholder})"
-        db_connection.execute(query, tuple(row[column_name] for column_name in column_names.split(", ")))    
+        if data_missing_from_row(row, extracted_data[0].keys()):
+            log_invalid_row(table_name, row)
+        else:
+            query = f"INSERT INTO {table_name} ({column_names}) VALUES ({values_placeholder})"
+            db_connection.execute(query, tuple(row[column_name] for column_name in column_names.split(", ")))    
+    print(len(db_connection.execute("SELECT * FROM invalid_data")))
     return "Data loaded successfully"
 
 
-print(load_new_data(ingest_new_data('../mock_data/pet_details.csv'), 'pet_details'))
-print("1 done")
-print(load_new_data(ingest_new_data('../mock_data/policy_data.xlsx'), 'policy_details'))
-print("2 done")
-print(load_new_data(ingest_new_data('http://127.0.0.1:5000/claims'), 'claims_data'))
-print("3 done")
+
+
