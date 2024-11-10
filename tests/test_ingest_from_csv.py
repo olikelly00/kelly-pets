@@ -1,4 +1,4 @@
-from lib.ingest_from_csv import *
+from lib.ingest_from_csv import ingest_from_csv
 import os
 
 def test_ingest_from_csv():

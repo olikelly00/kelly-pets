@@ -1,4 +1,4 @@
-from lib.ingest_from_api import *
+from lib.ingest_from_api import ingest_from_api
 
 def test_ingest_all_data_from_api():
     api_url = 'http://127.0.0.1:5000/claims'

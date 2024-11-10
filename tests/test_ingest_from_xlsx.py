@@ -1,4 +1,4 @@
-from lib.ingest_from_xlsx import *
+from lib.ingest_from_xlsx import ingest_from_xlsx
 import os
 
 def test_ingest_from_xlsx():

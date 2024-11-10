@@ -1,9 +1,5 @@
-from database_connection import *
-from ingest_from_csv import *
-from ingest_from_xlsx import *
-from ingest_from_api import *
-from ingest_new_data import *
-from validate_data import *
+from database_connection import DatabaseConnection
+from validate_data import data_missing_from_row, log_invalid_row
 
 
 def load_new_data(extracted_data, table_name):

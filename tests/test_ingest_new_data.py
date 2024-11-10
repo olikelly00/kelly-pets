@@ -1,4 +1,4 @@
-from lib.ingest_new_data import *
+from lib.ingest_new_data import ingest_new_data
 import os
 
 def test_ingest_new_data_with_csv_input_returns_correct_data():
