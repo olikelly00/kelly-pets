@@ -1,6 +1,6 @@
-from ingest_from_api import *
-from ingest_from_csv import *
-from ingest_from_xlsx import *
+from ingest_from_api import ingest_from_api
+from ingest_from_csv import ingest_from_csv
+from ingest_from_xlsx import ingest_from_xlsx
 import requests
 
 
