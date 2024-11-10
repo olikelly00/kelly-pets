@@ -6,7 +6,7 @@ KellyPets Data Pipeline
 Features
 --------
 
--   Ingestion of pet-related data from various formats: CSV, XLSX, and APIs.
+-   Ingestion of pet-related data from various formats: CSV, XLSX, and JSON.
 -   Data validation and handling of missing or invalid fields.
 -   Automated loading of clean data into a SQL database.
 -   Integration with a companion API for mocking JSON data: [Kelly Vets API](https://github.com/olikelly00/kelly-vets-api)
@@ -42,7 +42,7 @@ This folder contains unit tests to validate the functionality of the different c
     test_ingest_from_api.py: Tests the ingestion of data from APIs.
     test_ingest_from_csv.py: Tests the ingestion of data from CSV files.
     test_ingest_from_xlsx.py: Tests the ingestion of data from XLSX files.
-    test_ingest_new_data.py: Tests the overall ingestion logic from multiple sources (CSV, XLSX, API).
+    test_ingest_new_data.py: Tests the overall ingestion logic from multiple sources (CSV, XLSX, JSON).
     test_load_new_data.py: Tests the loading of ingested data into the SQL database.
     test_validate_data.py: Tests the validation logic, ensuring that rows with missing or invalid fields are handled correctly.
 
@@ -77,7 +77,7 @@ Ensure you have the following installed:
 
     `pipenv run pytest`
 
-6.  **Ingest data**: You can ingest data from CSV, XLSX, and API formats using the ingestion scripts in the `lib` folder.
+6.  **Ingest data**: You can ingest data from CSV, XLSX, and JSON formats using the ingestion scripts in the `lib` folder.
 
 7.  **Mock JSON API**: To mock vet claim data, you can use the companion API project, [Kelly Vets API](https://github.com/olikelly00/kelly-vets-api). Follow the instructions in that repo to set up the API locally.
 

@@ -1,55 +1,5004 @@
 {
-    "claims": [
-      {
-        "claim_id": 501,
-        "policy_id": 1001,
-        "pet_name": "Buddy",
-        "species": "Dog",
-        "claim_date": "2023-06-20",
-        "claim_type": "Vet Treatment",
-        "claim_amount": 250.75,
-        "status": "Approved"
-      },
-      {
-        "claim_id": 502,
-        "policy_id": 1002,
-        "pet_name": "Mittens",
-        "species": "Cat",
-        "claim_date": "2023-07-10",
-        "claim_type": "Surgery",
-        "claim_amount": 1800.00,
-        "status": "Pending"
-      },
-      {
-        "claim_id": 503,
-        "policy_id": 1003,
-        "pet_name": "Charlie",
-        "species": "Dog",
-        "claim_date": "2023-08-01",
-        "claim_type": "Vaccination",
-        "claim_amount": 75.00,
-        "status": "Approved"
-      },
-      {
-        "claim_id": 504,
-        "policy_id": 1004,
-        "pet_name": "Luna",
-        "species": "Dog",
-        "claim_date": "2023-07-22",
-        "claim_type": "Routine Checkup",
-        "claim_amount": 100.00,
-        "status": "Approved"
-      },
-      {
-        "claim_id": 505,
-        "policy_id": 1005,
-        "pet_name": "Max",
-        "species": "Dog",
-        "claim_date": "2023-06-18",
-        "claim_type": "Medication",
-        "claim_amount": 120.50,
-        "status": "Denied"
-      }
-    ]
-  }
-  
+  "claims": [
+    {
+      "claim_id": 501,
+      "policy_id": 1430,
+      "pet_name": "Joshua",
+      "species": "Cat",
+      "claim_date": "2024-08-01",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 563.26,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 502,
+      "policy_id": 1841,
+      "pet_name": "Robin",
+      "species": "Cat",
+      "claim_date": "2024-04-18",
+      "claim_type": "Dental Care",
+      "claim_amount": 1029.89,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 503,
+      "policy_id": 1043,
+      "pet_name": "John",
+      "species": "Cat",
+      "claim_date": "2024-08-25",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1480.46,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 504,
+      "policy_id": 1829,
+      "pet_name": "Michael",
+      "species": "Cat",
+      "claim_date": "2024-08-07",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 416.46,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 505,
+      "policy_id": 1179,
+      "pet_name": "Shawn",
+      "species": "Cat",
+      "claim_date": "2024-07-13",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 267.24,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 506,
+      "policy_id": 1418,
+      "pet_name": "Steven",
+      "species": "Cat",
+      "claim_date": "2024-11-01",
+      "claim_type": "Medication",
+      "claim_amount": 301.28,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 507,
+      "policy_id": 1270,
+      "pet_name": "Robin",
+      "species": "Cat",
+      "claim_date": "2024-03-08",
+      "claim_type": "Medication",
+      "claim_amount": 698.72,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 508,
+      "policy_id": 1756,
+      "pet_name": "William",
+      "species": "Dog",
+      "claim_date": "2024-04-20",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 179.77,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 509,
+      "policy_id": 1239,
+      "pet_name": "Sarah",
+      "species": "Dog",
+      "claim_date": "2023-12-10",
+      "claim_type": "Medication",
+      "claim_amount": 1602.68,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 510,
+      "policy_id": 1846,
+      "pet_name": "David",
+      "species": "Dog",
+      "claim_date": "2024-07-31",
+      "claim_type": "Vaccination",
+      "claim_amount": 1356.55,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 511,
+      "policy_id": 1912,
+      "pet_name": "Andrea",
+      "species": "Cat",
+      "claim_date": "2024-08-19",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 749.74,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 512,
+      "policy_id": 1519,
+      "pet_name": "Craig",
+      "species": "Cat",
+      "claim_date": "2024-02-28",
+      "claim_type": "Vaccination",
+      "claim_amount": 1447.02,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 513,
+      "policy_id": 1387,
+      "pet_name": "Dominic",
+      "species": "Cat",
+      "claim_date": "2024-06-24",
+      "claim_type": "Surgery",
+      "claim_amount": 278.37,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 514,
+      "policy_id": 1992,
+      "pet_name": "Jasmine",
+      "species": "Dog",
+      "claim_date": "2024-06-15",
+      "claim_type": "Dental Care",
+      "claim_amount": 141.19,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 515,
+      "policy_id": 1565,
+      "pet_name": "Kimberly",
+      "species": "Cat",
+      "claim_date": "2024-01-16",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 389.54,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 516,
+      "policy_id": 1771,
+      "pet_name": "Heather",
+      "species": "Dog",
+      "claim_date": "2023-12-03",
+      "claim_type": "Medication",
+      "claim_amount": 1027.15,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 517,
+      "policy_id": 1238,
+      "pet_name": "Michael",
+      "species": "Cat",
+      "claim_date": "2024-07-16",
+      "claim_type": "Dental Care",
+      "claim_amount": 1237.28,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 518,
+      "policy_id": 1908,
+      "pet_name": "Angela",
+      "species": "Cat",
+      "claim_date": "2024-07-23",
+      "claim_type": "Dental Care",
+      "claim_amount": 1435.77,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 519,
+      "policy_id": 1306,
+      "pet_name": "Patricia",
+      "species": "Cat",
+      "claim_date": "2023-11-30",
+      "claim_type": "Vaccination",
+      "claim_amount": 1789.87,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 520,
+      "policy_id": 1331,
+      "pet_name": "Brandon",
+      "species": "Cat",
+      "claim_date": "2024-04-08",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1826.23,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 521,
+      "policy_id": 1504,
+      "pet_name": "Jamie",
+      "species": "Cat",
+      "claim_date": "2024-03-15",
+      "claim_type": "Medication",
+      "claim_amount": 1719.0,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 522,
+      "policy_id": 1434,
+      "pet_name": "Jean",
+      "species": "Cat",
+      "claim_date": "2024-04-17",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1897.14,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 523,
+      "policy_id": 1207,
+      "pet_name": "Joseph",
+      "species": "Dog",
+      "claim_date": "2024-01-26",
+      "claim_type": "Dental Care",
+      "claim_amount": 1237.65,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 524,
+      "policy_id": 1236,
+      "pet_name": "Cindy",
+      "species": "Cat",
+      "claim_date": "2024-05-26",
+      "claim_type": "Vaccination",
+      "claim_amount": 1960.58,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 525,
+      "policy_id": 1600,
+      "pet_name": "Brian",
+      "species": "Cat",
+      "claim_date": "2024-07-09",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1484.28,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 526,
+      "policy_id": 1453,
+      "pet_name": "Cathy",
+      "species": "Cat",
+      "claim_date": "2024-08-28",
+      "claim_type": "Vaccination",
+      "claim_amount": 318.6,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 527,
+      "policy_id": 1419,
+      "pet_name": "John",
+      "species": "Cat",
+      "claim_date": "2024-02-21",
+      "claim_type": "Surgery",
+      "claim_amount": 1198.09,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 528,
+      "policy_id": 1383,
+      "pet_name": "William",
+      "species": "Dog",
+      "claim_date": "2024-09-07",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 734.78,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 529,
+      "policy_id": 1102,
+      "pet_name": "Rickey",
+      "species": "Dog",
+      "claim_date": "2024-02-07",
+      "claim_type": "Dental Care",
+      "claim_amount": 1893.77,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 530,
+      "policy_id": 1490,
+      "pet_name": "Christine",
+      "species": "Cat",
+      "claim_date": "2024-06-08",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1618.31,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 531,
+      "policy_id": 1740,
+      "pet_name": "Thomas",
+      "species": "Dog",
+      "claim_date": "2024-10-04",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 968.45,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 532,
+      "policy_id": 1929,
+      "pet_name": "Brandon",
+      "species": "Dog",
+      "claim_date": "2023-11-21",
+      "claim_type": "Surgery",
+      "claim_amount": 1745.06,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 533,
+      "policy_id": 1638,
+      "pet_name": "Richard",
+      "species": "Dog",
+      "claim_date": "2023-12-20",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 119.5,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 534,
+      "policy_id": 1454,
+      "pet_name": "Amy",
+      "species": "Cat",
+      "claim_date": "2024-10-06",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 705.16,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 535,
+      "policy_id": 1548,
+      "pet_name": "Emma",
+      "species": "Cat",
+      "claim_date": "2024-02-15",
+      "claim_type": "Vaccination",
+      "claim_amount": 525.77,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 536,
+      "policy_id": 1871,
+      "pet_name": "Raymond",
+      "species": "Cat",
+      "claim_date": "2024-04-11",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1501.61,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 537,
+      "policy_id": 1213,
+      "pet_name": "Jessica",
+      "species": "Cat",
+      "claim_date": "2024-03-23",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1783.94,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 538,
+      "policy_id": 1966,
+      "pet_name": "Alex",
+      "species": "Dog",
+      "claim_date": "2024-03-14",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 395.19,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 539,
+      "policy_id": 1514,
+      "pet_name": "April",
+      "species": "Dog",
+      "claim_date": "2024-02-28",
+      "claim_type": "Vaccination",
+      "claim_amount": 1572.17,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 540,
+      "policy_id": 1199,
+      "pet_name": "Scott",
+      "species": "Cat",
+      "claim_date": "2024-10-14",
+      "claim_type": "Vaccination",
+      "claim_amount": 1653.7,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 541,
+      "policy_id": 1995,
+      "pet_name": "Erika",
+      "species": "Cat",
+      "claim_date": "2024-08-09",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1494.15,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 542,
+      "policy_id": 1968,
+      "pet_name": "Eric",
+      "species": "Dog",
+      "claim_date": "2024-06-12",
+      "claim_type": "Surgery",
+      "claim_amount": 129.92,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 543,
+      "policy_id": 1030,
+      "pet_name": "Tracy",
+      "species": "Cat",
+      "claim_date": "2024-11-03",
+      "claim_type": "Vaccination",
+      "claim_amount": 598.15,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 544,
+      "policy_id": 1409,
+      "pet_name": "Julia",
+      "species": "Dog",
+      "claim_date": "2024-03-21",
+      "claim_type": "Surgery",
+      "claim_amount": 1925.79,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 545,
+      "policy_id": 1662,
+      "pet_name": "Donna",
+      "species": "Cat",
+      "claim_date": "2024-04-11",
+      "claim_type": "Medication",
+      "claim_amount": 201.58,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 546,
+      "policy_id": 1820,
+      "pet_name": "Richard",
+      "species": "Dog",
+      "claim_date": "2024-04-07",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 557.08,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 547,
+      "policy_id": 1349,
+      "pet_name": "Anita",
+      "species": "Cat",
+      "claim_date": "2024-05-19",
+      "claim_type": "Dental Care",
+      "claim_amount": 1017.95,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 548,
+      "policy_id": 1131,
+      "pet_name": "Jimmy",
+      "species": "Dog",
+      "claim_date": "2024-08-05",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 140.3,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 549,
+      "policy_id": 1333,
+      "pet_name": "James",
+      "species": "Dog",
+      "claim_date": "2024-11-09",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1475.25,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 550,
+      "policy_id": 1755,
+      "pet_name": "Luke",
+      "species": "Dog",
+      "claim_date": "2024-09-22",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 345.73,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 551,
+      "policy_id": 1695,
+      "pet_name": "Rebecca",
+      "species": "Cat",
+      "claim_date": "2024-07-14",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 525.04,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 552,
+      "policy_id": 1363,
+      "pet_name": "David",
+      "species": "Cat",
+      "claim_date": "2024-03-31",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1958.81,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 553,
+      "policy_id": 1917,
+      "pet_name": "Stephanie",
+      "species": "Cat",
+      "claim_date": "2024-03-07",
+      "claim_type": "Medication",
+      "claim_amount": 825.1,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 554,
+      "policy_id": 1816,
+      "pet_name": "Brendan",
+      "species": "Cat",
+      "claim_date": "2024-08-01",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1683.95,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 555,
+      "policy_id": 1889,
+      "pet_name": "Christine",
+      "species": "Dog",
+      "claim_date": "2024-04-21",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1842.9,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 556,
+      "policy_id": 1421,
+      "pet_name": "Christian",
+      "species": "Dog",
+      "claim_date": "2024-09-25",
+      "claim_type": "Medication",
+      "claim_amount": 1121.32,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 557,
+      "policy_id": 1833,
+      "pet_name": "Christopher",
+      "species": "Dog",
+      "claim_date": "2024-05-03",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 236.06,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 558,
+      "policy_id": 1184,
+      "pet_name": "Wendy",
+      "species": "Cat",
+      "claim_date": "2024-05-10",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1563.45,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 559,
+      "policy_id": 1093,
+      "pet_name": "Patrick",
+      "species": "Cat",
+      "claim_date": "2024-05-02",
+      "claim_type": "Medication",
+      "claim_amount": 1311.31,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 560,
+      "policy_id": 1478,
+      "pet_name": "Amber",
+      "species": "Dog",
+      "claim_date": "2024-10-16",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 368.2,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 561,
+      "policy_id": 1635,
+      "pet_name": "Jessica",
+      "species": "Dog",
+      "claim_date": "2024-02-29",
+      "claim_type": "Medication",
+      "claim_amount": 1800.77,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 562,
+      "policy_id": 1269,
+      "pet_name": "Alexandria",
+      "species": "Dog",
+      "claim_date": "2024-04-29",
+      "claim_type": "Dental Care",
+      "claim_amount": 1846.76,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 563,
+      "policy_id": 1350,
+      "pet_name": "George",
+      "species": "Dog",
+      "claim_date": "2024-05-01",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 463.95,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 564,
+      "policy_id": 1646,
+      "pet_name": "Jonathan",
+      "species": "Cat",
+      "claim_date": "2024-03-05",
+      "claim_type": "Vaccination",
+      "claim_amount": 1647.08,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 565,
+      "policy_id": 1296,
+      "pet_name": "Aaron",
+      "species": "Dog",
+      "claim_date": "2024-05-20",
+      "claim_type": "Dental Care",
+      "claim_amount": 1499.8,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 566,
+      "policy_id": 1737,
+      "pet_name": "Kenneth",
+      "species": "Dog",
+      "claim_date": "2024-08-25",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1192.38,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 567,
+      "policy_id": 1527,
+      "pet_name": "Jennifer",
+      "species": "Cat",
+      "claim_date": "2023-11-27",
+      "claim_type": "Medication",
+      "claim_amount": 300.73,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 568,
+      "policy_id": 1289,
+      "pet_name": "Patrick",
+      "species": "Cat",
+      "claim_date": "2024-01-06",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1175.55,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 569,
+      "policy_id": 1635,
+      "pet_name": "Timothy",
+      "species": "Cat",
+      "claim_date": "2023-11-25",
+      "claim_type": "Surgery",
+      "claim_amount": 1170.46,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 570,
+      "policy_id": 1927,
+      "pet_name": "Cynthia",
+      "species": "Cat",
+      "claim_date": "2024-11-01",
+      "claim_type": "Surgery",
+      "claim_amount": 1357.1,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 571,
+      "policy_id": 1015,
+      "pet_name": "Lynn",
+      "species": "Cat",
+      "claim_date": "2024-01-11",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 982.25,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 572,
+      "policy_id": 1947,
+      "pet_name": "Samantha",
+      "species": "Cat",
+      "claim_date": "2023-11-14",
+      "claim_type": "Dental Care",
+      "claim_amount": 1809.87,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 573,
+      "policy_id": 1189,
+      "pet_name": "Kelly",
+      "species": "Dog",
+      "claim_date": "2024-09-22",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1501.86,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 574,
+      "policy_id": 1830,
+      "pet_name": "Nicole",
+      "species": "Dog",
+      "claim_date": "2024-05-23",
+      "claim_type": "Surgery",
+      "claim_amount": 166.01,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 575,
+      "policy_id": 1068,
+      "pet_name": "Shawn",
+      "species": "Dog",
+      "claim_date": "2024-02-16",
+      "claim_type": "Vaccination",
+      "claim_amount": 1335.18,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 576,
+      "policy_id": 1340,
+      "pet_name": "Gregory",
+      "species": "Dog",
+      "claim_date": "2024-05-18",
+      "claim_type": "Dental Care",
+      "claim_amount": 1564.28,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 577,
+      "policy_id": 1284,
+      "pet_name": "Tracie",
+      "species": "Dog",
+      "claim_date": "2024-10-18",
+      "claim_type": "Vaccination",
+      "claim_amount": 1715.57,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 578,
+      "policy_id": 1228,
+      "pet_name": "Kimberly",
+      "species": "Cat",
+      "claim_date": "2024-08-14",
+      "claim_type": "Vaccination",
+      "claim_amount": 1015.16,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 579,
+      "policy_id": 1783,
+      "pet_name": "Timothy",
+      "species": "Dog",
+      "claim_date": "2024-07-06",
+      "claim_type": "Vaccination",
+      "claim_amount": 757.69,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 580,
+      "policy_id": 1044,
+      "pet_name": "Tiffany",
+      "species": "Cat",
+      "claim_date": "2024-07-25",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 988.15,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 581,
+      "policy_id": 1421,
+      "pet_name": "Melissa",
+      "species": "Dog",
+      "claim_date": "2023-11-20",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 199.62,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 582,
+      "policy_id": 1371,
+      "pet_name": "Anna",
+      "species": "Cat",
+      "claim_date": "2024-10-24",
+      "claim_type": "Dental Care",
+      "claim_amount": 534.82,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 583,
+      "policy_id": 1240,
+      "pet_name": "Brenda",
+      "species": "Dog",
+      "claim_date": "2024-02-13",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 705.68,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 584,
+      "policy_id": 1410,
+      "pet_name": "Brenda",
+      "species": "Cat",
+      "claim_date": "2024-06-01",
+      "claim_type": "Dental Care",
+      "claim_amount": 165.51,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 585,
+      "policy_id": 1810,
+      "pet_name": "Joseph",
+      "species": "Cat",
+      "claim_date": "2024-09-25",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1076.36,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 586,
+      "policy_id": 1919,
+      "pet_name": "Tracy",
+      "species": "Dog",
+      "claim_date": "2024-07-06",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 232.78,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 587,
+      "policy_id": 1179,
+      "pet_name": "Mary",
+      "species": "Cat",
+      "claim_date": "2024-09-01",
+      "claim_type": "Dental Care",
+      "claim_amount": 107.63,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 588,
+      "policy_id": 1762,
+      "pet_name": "Christopher",
+      "species": "Dog",
+      "claim_date": "2023-12-14",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 444.88,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 589,
+      "policy_id": 1868,
+      "pet_name": "William",
+      "species": "Dog",
+      "claim_date": "2024-05-01",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 929.86,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 590,
+      "policy_id": 1277,
+      "pet_name": "Adrian",
+      "species": "Dog",
+      "claim_date": "2023-11-24",
+      "claim_type": "Dental Care",
+      "claim_amount": 1137.1,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 591,
+      "policy_id": 1052,
+      "pet_name": "Ashley",
+      "species": "Cat",
+      "claim_date": "2024-08-31",
+      "claim_type": "Medication",
+      "claim_amount": 734.56,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 592,
+      "policy_id": 1352,
+      "pet_name": "Eric",
+      "species": "Cat",
+      "claim_date": "2024-01-24",
+      "claim_type": "Surgery",
+      "claim_amount": 1505.11,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 593,
+      "policy_id": 1044,
+      "pet_name": "Caroline",
+      "species": "Dog",
+      "claim_date": "2024-03-10",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 578.81,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 594,
+      "policy_id": 1976,
+      "pet_name": "Kelsey",
+      "species": "Cat",
+      "claim_date": "2024-05-31",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1112.0,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 595,
+      "policy_id": 1237,
+      "pet_name": "Michelle",
+      "species": "Cat",
+      "claim_date": "2024-04-09",
+      "claim_type": "Surgery",
+      "claim_amount": 363.16,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 596,
+      "policy_id": 1682,
+      "pet_name": "Kelly",
+      "species": "Cat",
+      "claim_date": "2024-06-17",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1441.22,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 597,
+      "policy_id": 1633,
+      "pet_name": "Jeremy",
+      "species": "Cat",
+      "claim_date": "2024-03-20",
+      "claim_type": "Medication",
+      "claim_amount": 338.59,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 598,
+      "policy_id": 1700,
+      "pet_name": "Jamie",
+      "species": "Cat",
+      "claim_date": "2024-08-01",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 814.57,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 599,
+      "policy_id": 1540,
+      "pet_name": "Sarah",
+      "species": "Cat",
+      "claim_date": "2024-07-29",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 134.13,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 600,
+      "policy_id": 1792,
+      "pet_name": "Billy",
+      "species": "Cat",
+      "claim_date": "2023-12-10",
+      "claim_type": "Dental Care",
+      "claim_amount": 193.14,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 601,
+      "policy_id": 1508,
+      "pet_name": "Kyle",
+      "species": "Cat",
+      "claim_date": "2023-12-13",
+      "claim_type": "Surgery",
+      "claim_amount": 587.24,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 602,
+      "policy_id": 1713,
+      "pet_name": "Lori",
+      "species": "Dog",
+      "claim_date": "2024-01-26",
+      "claim_type": "Surgery",
+      "claim_amount": 813.78,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 603,
+      "policy_id": 1811,
+      "pet_name": "Christopher",
+      "species": "Cat",
+      "claim_date": "2023-11-16",
+      "claim_type": "Surgery",
+      "claim_amount": 1421.33,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 604,
+      "policy_id": 1685,
+      "pet_name": "Emily",
+      "species": "Dog",
+      "claim_date": "2024-09-18",
+      "claim_type": "Surgery",
+      "claim_amount": 956.93,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 605,
+      "policy_id": 1918,
+      "pet_name": "Luis",
+      "species": "Dog",
+      "claim_date": "2024-04-27",
+      "claim_type": "Medication",
+      "claim_amount": 513.94,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 606,
+      "policy_id": 1864,
+      "pet_name": "Max",
+      "species": "Cat",
+      "claim_date": "2024-01-23",
+      "claim_type": "Medication",
+      "claim_amount": 1215.42,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 607,
+      "policy_id": 1818,
+      "pet_name": "Natasha",
+      "species": "Dog",
+      "claim_date": "2024-01-17",
+      "claim_type": "Medication",
+      "claim_amount": 1402.76,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 608,
+      "policy_id": 1860,
+      "pet_name": "Sara",
+      "species": "Cat",
+      "claim_date": "2024-08-11",
+      "claim_type": "Medication",
+      "claim_amount": 867.27,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 609,
+      "policy_id": 1936,
+      "pet_name": "Christopher",
+      "species": "Cat",
+      "claim_date": "2023-12-26",
+      "claim_type": "Surgery",
+      "claim_amount": 297.58,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 610,
+      "policy_id": 1623,
+      "pet_name": "Michael",
+      "species": "Dog",
+      "claim_date": "2024-05-16",
+      "claim_type": "Surgery",
+      "claim_amount": 1999.76,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 611,
+      "policy_id": 1820,
+      "pet_name": "Christopher",
+      "species": "Cat",
+      "claim_date": "2023-12-21",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1369.68,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 612,
+      "policy_id": 1846,
+      "pet_name": "Laura",
+      "species": "Dog",
+      "claim_date": "2023-11-13",
+      "claim_type": "Surgery",
+      "claim_amount": 1110.19,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 613,
+      "policy_id": 1199,
+      "pet_name": "Tiffany",
+      "species": "Dog",
+      "claim_date": "2024-07-11",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 173.55,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 614,
+      "policy_id": 1974,
+      "pet_name": "Jennifer",
+      "species": "Cat",
+      "claim_date": "2024-09-05",
+      "claim_type": "Dental Care",
+      "claim_amount": 1575.02,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 615,
+      "policy_id": 1714,
+      "pet_name": "Lawrence",
+      "species": "Dog",
+      "claim_date": "2024-08-14",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1042.28,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 616,
+      "policy_id": 1060,
+      "pet_name": "Melissa",
+      "species": "Cat",
+      "claim_date": "2024-03-19",
+      "claim_type": "Dental Care",
+      "claim_amount": 813.95,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 617,
+      "policy_id": 1412,
+      "pet_name": "Michelle",
+      "species": "Cat",
+      "claim_date": "2024-03-31",
+      "claim_type": "Vaccination",
+      "claim_amount": 1349.42,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 618,
+      "policy_id": 1105,
+      "pet_name": "Vincent",
+      "species": "Dog",
+      "claim_date": "2024-07-24",
+      "claim_type": "Medication",
+      "claim_amount": 617.96,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 619,
+      "policy_id": 1547,
+      "pet_name": "Robert",
+      "species": "Dog",
+      "claim_date": "2024-09-13",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1867.59,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 620,
+      "policy_id": 1316,
+      "pet_name": "Alicia",
+      "species": "Cat",
+      "claim_date": "2024-08-30",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 446.58,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 621,
+      "policy_id": 1598,
+      "pet_name": "Nathan",
+      "species": "Cat",
+      "claim_date": "2024-06-08",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 623.25,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 622,
+      "policy_id": 1397,
+      "pet_name": "Jeffrey",
+      "species": "Cat",
+      "claim_date": "2023-12-04",
+      "claim_type": "Dental Care",
+      "claim_amount": 1196.13,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 623,
+      "policy_id": 1259,
+      "pet_name": "Lisa",
+      "species": "Dog",
+      "claim_date": "2024-01-17",
+      "claim_type": "Vaccination",
+      "claim_amount": 133.44,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 624,
+      "policy_id": 1035,
+      "pet_name": "Sarah",
+      "species": "Cat",
+      "claim_date": "2024-01-14",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 552.94,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 625,
+      "policy_id": 1303,
+      "pet_name": "Jason",
+      "species": "Dog",
+      "claim_date": "2024-06-15",
+      "claim_type": "Medication",
+      "claim_amount": 1065.05,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 626,
+      "policy_id": 1962,
+      "pet_name": "Sherri",
+      "species": "Dog",
+      "claim_date": "2023-12-08",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1989.91,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 627,
+      "policy_id": 1239,
+      "pet_name": "Katrina",
+      "species": "Dog",
+      "claim_date": "2024-06-08",
+      "claim_type": "Vaccination",
+      "claim_amount": 1031.38,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 628,
+      "policy_id": 1308,
+      "pet_name": "Debra",
+      "species": "Dog",
+      "claim_date": "2024-01-15",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1500.73,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 629,
+      "policy_id": 1126,
+      "pet_name": "Jonathan",
+      "species": "Dog",
+      "claim_date": "2024-02-02",
+      "claim_type": "Medication",
+      "claim_amount": 1424.93,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 630,
+      "policy_id": 1109,
+      "pet_name": "Dawn",
+      "species": "Dog",
+      "claim_date": "2024-07-14",
+      "claim_type": "Dental Care",
+      "claim_amount": 572.27,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 631,
+      "policy_id": 1889,
+      "pet_name": "Erica",
+      "species": "Dog",
+      "claim_date": "2024-05-23",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 142.98,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 632,
+      "policy_id": 1261,
+      "pet_name": "William",
+      "species": "Dog",
+      "claim_date": "2024-07-03",
+      "claim_type": "Medication",
+      "claim_amount": 427.67,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 633,
+      "policy_id": 1723,
+      "pet_name": "Cynthia",
+      "species": "Cat",
+      "claim_date": "2024-02-05",
+      "claim_type": "Medication",
+      "claim_amount": 1020.96,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 634,
+      "policy_id": 1385,
+      "pet_name": "Cindy",
+      "species": "Cat",
+      "claim_date": "2023-12-17",
+      "claim_type": "Medication",
+      "claim_amount": 1586.56,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 635,
+      "policy_id": 1559,
+      "pet_name": "Lauren",
+      "species": "Cat",
+      "claim_date": "2024-10-04",
+      "claim_type": "Medication",
+      "claim_amount": 485.94,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 636,
+      "policy_id": 1519,
+      "pet_name": "Holly",
+      "species": "Cat",
+      "claim_date": "2024-01-23",
+      "claim_type": "Medication",
+      "claim_amount": 1420.87,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 637,
+      "policy_id": 1286,
+      "pet_name": "Cynthia",
+      "species": "Dog",
+      "claim_date": "2024-10-07",
+      "claim_type": "Medication",
+      "claim_amount": 1722.71,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 638,
+      "policy_id": 1262,
+      "pet_name": "Joshua",
+      "species": "Cat",
+      "claim_date": "2024-11-09",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 570.19,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 639,
+      "policy_id": 1279,
+      "pet_name": "Tara",
+      "species": "Cat",
+      "claim_date": "2024-03-23",
+      "claim_type": "Dental Care",
+      "claim_amount": 526.39,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 640,
+      "policy_id": 1574,
+      "pet_name": "Corey",
+      "species": "Dog",
+      "claim_date": "2024-05-10",
+      "claim_type": "Vaccination",
+      "claim_amount": 1120.8,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 641,
+      "policy_id": 1603,
+      "pet_name": "Amy",
+      "species": "Cat",
+      "claim_date": "2024-04-12",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 382.12,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 642,
+      "policy_id": 1876,
+      "pet_name": "Allison",
+      "species": "Dog",
+      "claim_date": "2024-09-08",
+      "claim_type": "Dental Care",
+      "claim_amount": 1650.32,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 643,
+      "policy_id": 1925,
+      "pet_name": "Justin",
+      "species": "Cat",
+      "claim_date": "2024-06-18",
+      "claim_type": "Vaccination",
+      "claim_amount": 1562.12,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 644,
+      "policy_id": 1035,
+      "pet_name": "Danny",
+      "species": "Cat",
+      "claim_date": "2024-07-27",
+      "claim_type": "Surgery",
+      "claim_amount": 429.74,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 645,
+      "policy_id": 1941,
+      "pet_name": "Patrick",
+      "species": "Dog",
+      "claim_date": "2024-08-16",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 885.68,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 646,
+      "policy_id": 1721,
+      "pet_name": "Zachary",
+      "species": "Cat",
+      "claim_date": "2024-03-14",
+      "claim_type": "Surgery",
+      "claim_amount": 710.49,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 647,
+      "policy_id": 1977,
+      "pet_name": "Susan",
+      "species": "Dog",
+      "claim_date": "2024-04-13",
+      "claim_type": "Vaccination",
+      "claim_amount": 1515.29,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 648,
+      "policy_id": 1463,
+      "pet_name": "Spencer",
+      "species": "Dog",
+      "claim_date": "2024-04-25",
+      "claim_type": "Vaccination",
+      "claim_amount": 1676.49,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 649,
+      "policy_id": 1440,
+      "pet_name": "Jerry",
+      "species": "Cat",
+      "claim_date": "2024-08-27",
+      "claim_type": "Vaccination",
+      "claim_amount": 81.19,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 650,
+      "policy_id": 1700,
+      "pet_name": "Erin",
+      "species": "Dog",
+      "claim_date": "2024-06-01",
+      "claim_type": "Vaccination",
+      "claim_amount": 83.78,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 651,
+      "policy_id": 1449,
+      "pet_name": "Steven",
+      "species": "Dog",
+      "claim_date": "2024-03-25",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 338.58,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 652,
+      "policy_id": 1640,
+      "pet_name": "Shannon",
+      "species": "Dog",
+      "claim_date": "2024-04-19",
+      "claim_type": "Medication",
+      "claim_amount": 1555.47,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 653,
+      "policy_id": 1234,
+      "pet_name": "Nicholas",
+      "species": "Cat",
+      "claim_date": "2024-03-14",
+      "claim_type": "Surgery",
+      "claim_amount": 1601.73,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 654,
+      "policy_id": 1814,
+      "pet_name": "Amy",
+      "species": "Dog",
+      "claim_date": "2024-07-23",
+      "claim_type": "Medication",
+      "claim_amount": 152.37,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 655,
+      "policy_id": 1145,
+      "pet_name": "Beth",
+      "species": "Cat",
+      "claim_date": "2024-02-20",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 340.49,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 656,
+      "policy_id": 1537,
+      "pet_name": "Robert",
+      "species": "Dog",
+      "claim_date": "2024-07-25",
+      "claim_type": "Dental Care",
+      "claim_amount": 1733.15,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 657,
+      "policy_id": 1241,
+      "pet_name": "Mitchell",
+      "species": "Cat",
+      "claim_date": "2024-04-30",
+      "claim_type": "Surgery",
+      "claim_amount": 735.0,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 658,
+      "policy_id": 1084,
+      "pet_name": "Amber",
+      "species": "Dog",
+      "claim_date": "2024-04-11",
+      "claim_type": "Vaccination",
+      "claim_amount": 1049.36,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 659,
+      "policy_id": 1868,
+      "pet_name": "Renee",
+      "species": "Dog",
+      "claim_date": "2024-07-24",
+      "claim_type": "Medication",
+      "claim_amount": 873.42,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 660,
+      "policy_id": 1419,
+      "pet_name": "Sarah",
+      "species": "Cat",
+      "claim_date": "2023-12-07",
+      "claim_type": "Surgery",
+      "claim_amount": 783.56,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 661,
+      "policy_id": 1151,
+      "pet_name": "Sherri",
+      "species": "Dog",
+      "claim_date": "2024-06-07",
+      "claim_type": "Vaccination",
+      "claim_amount": 441.49,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 662,
+      "policy_id": 1963,
+      "pet_name": "Lisa",
+      "species": "Cat",
+      "claim_date": "2023-12-14",
+      "claim_type": "Vaccination",
+      "claim_amount": 1494.71,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 663,
+      "policy_id": 1613,
+      "pet_name": "Andrew",
+      "species": "Cat",
+      "claim_date": "2024-01-24",
+      "claim_type": "Surgery",
+      "claim_amount": 1068.83,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 664,
+      "policy_id": 1901,
+      "pet_name": "Jay",
+      "species": "Dog",
+      "claim_date": "2023-12-03",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 766.53,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 665,
+      "policy_id": 1703,
+      "pet_name": "Amanda",
+      "species": "Cat",
+      "claim_date": "2024-04-19",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 801.15,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 666,
+      "policy_id": 1531,
+      "pet_name": "Matthew",
+      "species": "Cat",
+      "claim_date": "2024-08-22",
+      "claim_type": "Dental Care",
+      "claim_amount": 1782.64,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 667,
+      "policy_id": 1909,
+      "pet_name": "Cynthia",
+      "species": "Cat",
+      "claim_date": "2023-12-15",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1433.17,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 668,
+      "policy_id": 1989,
+      "pet_name": "Cynthia",
+      "species": "Dog",
+      "claim_date": "2024-06-16",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1394.86,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 669,
+      "policy_id": 1291,
+      "pet_name": "Kevin",
+      "species": "Cat",
+      "claim_date": "2024-02-02",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 258.36,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 670,
+      "policy_id": 1342,
+      "pet_name": "Kristi",
+      "species": "Dog",
+      "claim_date": "2024-07-02",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1415.89,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 671,
+      "policy_id": 1744,
+      "pet_name": "Juan",
+      "species": "Dog",
+      "claim_date": "2024-08-22",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 828.97,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 672,
+      "policy_id": 1305,
+      "pet_name": "Kim",
+      "species": "Cat",
+      "claim_date": "2024-04-11",
+      "claim_type": "Vaccination",
+      "claim_amount": 60.59,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 673,
+      "policy_id": 1727,
+      "pet_name": "Diane",
+      "species": "Dog",
+      "claim_date": "2024-03-16",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1337.64,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 674,
+      "policy_id": 1284,
+      "pet_name": "Amanda",
+      "species": "Cat",
+      "claim_date": "2024-03-29",
+      "claim_type": "Medication",
+      "claim_amount": 87.88,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 675,
+      "policy_id": 1131,
+      "pet_name": "Tammy",
+      "species": "Cat",
+      "claim_date": "2024-07-18",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1253.06,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 676,
+      "policy_id": 1167,
+      "pet_name": "Amy",
+      "species": "Cat",
+      "claim_date": "2024-06-07",
+      "claim_type": "Vaccination",
+      "claim_amount": 1571.04,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 677,
+      "policy_id": 1107,
+      "pet_name": "Blake",
+      "species": "Cat",
+      "claim_date": "2024-01-08",
+      "claim_type": "Surgery",
+      "claim_amount": 1405.92,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 678,
+      "policy_id": 1465,
+      "pet_name": "Ana",
+      "species": "Cat",
+      "claim_date": "2024-06-11",
+      "claim_type": "Surgery",
+      "claim_amount": 262.86,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 679,
+      "policy_id": 1313,
+      "pet_name": "William",
+      "species": "Cat",
+      "claim_date": "2024-05-16",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1650.11,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 680,
+      "policy_id": 1542,
+      "pet_name": "Benjamin",
+      "species": "Dog",
+      "claim_date": "2024-08-16",
+      "claim_type": "Surgery",
+      "claim_amount": 124.58,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 681,
+      "policy_id": 1669,
+      "pet_name": "Gary",
+      "species": "Cat",
+      "claim_date": "2024-09-05",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1257.59,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 682,
+      "policy_id": 1795,
+      "pet_name": "Jennifer",
+      "species": "Cat",
+      "claim_date": "2024-05-17",
+      "claim_type": "Medication",
+      "claim_amount": 1481.38,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 683,
+      "policy_id": 1807,
+      "pet_name": "Lawrence",
+      "species": "Cat",
+      "claim_date": "2024-04-30",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 967.9,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 684,
+      "policy_id": 1996,
+      "pet_name": "Alyssa",
+      "species": "Cat",
+      "claim_date": "2024-06-23",
+      "claim_type": "Vaccination",
+      "claim_amount": 1916.44,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 685,
+      "policy_id": 1717,
+      "pet_name": "Hannah",
+      "species": "Dog",
+      "claim_date": "2023-12-06",
+      "claim_type": "Vaccination",
+      "claim_amount": 235.16,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 686,
+      "policy_id": 1938,
+      "pet_name": "David",
+      "species": "Dog",
+      "claim_date": "2024-01-15",
+      "claim_type": "Vaccination",
+      "claim_amount": 207.68,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 687,
+      "policy_id": 1896,
+      "pet_name": "Deborah",
+      "species": "Dog",
+      "claim_date": "2024-04-19",
+      "claim_type": "Vaccination",
+      "claim_amount": 892.9,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 688,
+      "policy_id": 1511,
+      "pet_name": "Ryan",
+      "species": "Dog",
+      "claim_date": "2024-07-29",
+      "claim_type": "Vaccination",
+      "claim_amount": 1745.88,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 689,
+      "policy_id": 1787,
+      "pet_name": "Michael",
+      "species": "Cat",
+      "claim_date": "2024-01-24",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 640.87,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 690,
+      "policy_id": 1499,
+      "pet_name": "Logan",
+      "species": "Cat",
+      "claim_date": "2024-09-05",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 630.3,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 691,
+      "policy_id": 1809,
+      "pet_name": "Courtney",
+      "species": "Cat",
+      "claim_date": "2024-05-25",
+      "claim_type": "Surgery",
+      "claim_amount": 211.13,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 692,
+      "policy_id": 1327,
+      "pet_name": "Jason",
+      "species": "Dog",
+      "claim_date": "2023-12-11",
+      "claim_type": "Medication",
+      "claim_amount": 1143.45,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 693,
+      "policy_id": 1334,
+      "pet_name": "Erik",
+      "species": "Dog",
+      "claim_date": "2024-01-31",
+      "claim_type": "Medication",
+      "claim_amount": 1794.49,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 694,
+      "policy_id": 1951,
+      "pet_name": "Casey",
+      "species": "Cat",
+      "claim_date": "2024-11-06",
+      "claim_type": "Dental Care",
+      "claim_amount": 1260.82,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 695,
+      "policy_id": 1167,
+      "pet_name": "Melanie",
+      "species": "Dog",
+      "claim_date": "2023-11-25",
+      "claim_type": "Vaccination",
+      "claim_amount": 654.79,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 696,
+      "policy_id": 1730,
+      "pet_name": "Tamara",
+      "species": "Cat",
+      "claim_date": "2024-09-09",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 735.74,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 697,
+      "policy_id": 1370,
+      "pet_name": "Terri",
+      "species": "Dog",
+      "claim_date": "2024-07-06",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1351.39,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 698,
+      "policy_id": 1268,
+      "pet_name": "Michael",
+      "species": "Cat",
+      "claim_date": "2024-07-31",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 739.44,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 699,
+      "policy_id": 1002,
+      "pet_name": "Craig",
+      "species": "Cat",
+      "claim_date": "2024-08-13",
+      "claim_type": "Medication",
+      "claim_amount": 623.97,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 700,
+      "policy_id": 1917,
+      "pet_name": "Tiffany",
+      "species": "Dog",
+      "claim_date": "2023-11-10",
+      "claim_type": "Dental Care",
+      "claim_amount": 1171.17,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 701,
+      "policy_id": 1313,
+      "pet_name": "Erica",
+      "species": "Dog",
+      "claim_date": "2024-05-03",
+      "claim_type": "Vaccination",
+      "claim_amount": 1034.42,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 702,
+      "policy_id": 1697,
+      "pet_name": "Arthur",
+      "species": "Cat",
+      "claim_date": "2024-09-18",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 531.49,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 703,
+      "policy_id": 1864,
+      "pet_name": "Christian",
+      "species": "Cat",
+      "claim_date": "2024-06-21",
+      "claim_type": "Vaccination",
+      "claim_amount": 1872.71,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 704,
+      "policy_id": 1182,
+      "pet_name": "Dustin",
+      "species": "Dog",
+      "claim_date": "2024-03-15",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 736.41,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 705,
+      "policy_id": 1537,
+      "pet_name": "Anna",
+      "species": "Dog",
+      "claim_date": "2024-09-27",
+      "claim_type": "Surgery",
+      "claim_amount": 1091.68,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 706,
+      "policy_id": 1592,
+      "pet_name": "Joseph",
+      "species": "Dog",
+      "claim_date": "2024-08-12",
+      "claim_type": "Dental Care",
+      "claim_amount": 1800.85,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 707,
+      "policy_id": 1475,
+      "pet_name": "Justin",
+      "species": "Cat",
+      "claim_date": "2024-02-10",
+      "claim_type": "Surgery",
+      "claim_amount": 1570.18,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 708,
+      "policy_id": 1309,
+      "pet_name": "David",
+      "species": "Dog",
+      "claim_date": "2024-04-02",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 365.28,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 709,
+      "policy_id": 1867,
+      "pet_name": "Sharon",
+      "species": "Cat",
+      "claim_date": "2024-02-03",
+      "claim_type": "Medication",
+      "claim_amount": 1995.64,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 710,
+      "policy_id": 1411,
+      "pet_name": "David",
+      "species": "Cat",
+      "claim_date": "2024-01-20",
+      "claim_type": "Surgery",
+      "claim_amount": 929.42,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 711,
+      "policy_id": 1900,
+      "pet_name": "Joy",
+      "species": "Dog",
+      "claim_date": "2024-04-02",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1105.21,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 712,
+      "policy_id": 1991,
+      "pet_name": "Rodney",
+      "species": "Cat",
+      "claim_date": "2024-11-07",
+      "claim_type": "Medication",
+      "claim_amount": 1063.98,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 713,
+      "policy_id": 1500,
+      "pet_name": "Brian",
+      "species": "Cat",
+      "claim_date": "2024-09-15",
+      "claim_type": "Surgery",
+      "claim_amount": 1916.73,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 714,
+      "policy_id": 1468,
+      "pet_name": "Emily",
+      "species": "Cat",
+      "claim_date": "2024-06-19",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1938.79,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 715,
+      "policy_id": 1060,
+      "pet_name": "Judy",
+      "species": "Dog",
+      "claim_date": "2024-06-26",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1081.76,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 716,
+      "policy_id": 1986,
+      "pet_name": "Gary",
+      "species": "Cat",
+      "claim_date": "2024-06-20",
+      "claim_type": "Surgery",
+      "claim_amount": 1021.98,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 717,
+      "policy_id": 1893,
+      "pet_name": "Alicia",
+      "species": "Cat",
+      "claim_date": "2024-10-03",
+      "claim_type": "Dental Care",
+      "claim_amount": 1014.48,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 718,
+      "policy_id": 1948,
+      "pet_name": "Christina",
+      "species": "Dog",
+      "claim_date": "2024-01-06",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1317.53,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 719,
+      "policy_id": 1338,
+      "pet_name": "Ashley",
+      "species": "Dog",
+      "claim_date": "2023-11-26",
+      "claim_type": "Vaccination",
+      "claim_amount": 1725.86,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 720,
+      "policy_id": 1333,
+      "pet_name": "Carl",
+      "species": "Cat",
+      "claim_date": "2024-09-19",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 910.35,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 721,
+      "policy_id": 1379,
+      "pet_name": "Christopher",
+      "species": "Dog",
+      "claim_date": "2024-02-10",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1966.3,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 722,
+      "policy_id": 1043,
+      "pet_name": "Christopher",
+      "species": "Cat",
+      "claim_date": "2024-03-20",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1155.54,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 723,
+      "policy_id": 1614,
+      "pet_name": "Jesse",
+      "species": "Dog",
+      "claim_date": "2024-06-09",
+      "claim_type": "Vaccination",
+      "claim_amount": 1901.25,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 724,
+      "policy_id": 1796,
+      "pet_name": "Erin",
+      "species": "Cat",
+      "claim_date": "2024-09-12",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1212.78,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 725,
+      "policy_id": 1801,
+      "pet_name": "Michelle",
+      "species": "Cat",
+      "claim_date": "2024-11-09",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 260.16,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 726,
+      "policy_id": 1493,
+      "pet_name": "Joel",
+      "species": "Dog",
+      "claim_date": "2024-08-30",
+      "claim_type": "Medication",
+      "claim_amount": 435.19,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 727,
+      "policy_id": 1326,
+      "pet_name": "Michael",
+      "species": "Cat",
+      "claim_date": "2024-04-23",
+      "claim_type": "Medication",
+      "claim_amount": 613.08,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 728,
+      "policy_id": 1338,
+      "pet_name": "Johnny",
+      "species": "Cat",
+      "claim_date": "2024-10-03",
+      "claim_type": "Medication",
+      "claim_amount": 562.26,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 729,
+      "policy_id": 1598,
+      "pet_name": "Gabrielle",
+      "species": "Dog",
+      "claim_date": "2024-09-07",
+      "claim_type": "Medication",
+      "claim_amount": 1602.47,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 730,
+      "policy_id": 1846,
+      "pet_name": "Emily",
+      "species": "Dog",
+      "claim_date": "2024-09-08",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 139.13,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 731,
+      "policy_id": 1328,
+      "pet_name": "Shirley",
+      "species": "Cat",
+      "claim_date": "2024-09-13",
+      "claim_type": "Medication",
+      "claim_amount": 1521.26,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 732,
+      "policy_id": 1335,
+      "pet_name": "Roger",
+      "species": "Cat",
+      "claim_date": "2024-02-27",
+      "claim_type": "Vaccination",
+      "claim_amount": 1282.7,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 733,
+      "policy_id": 1109,
+      "pet_name": "Christine",
+      "species": "Cat",
+      "claim_date": "2024-02-27",
+      "claim_type": "Surgery",
+      "claim_amount": 985.13,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 734,
+      "policy_id": 1230,
+      "pet_name": "Randall",
+      "species": "Dog",
+      "claim_date": "2024-03-12",
+      "claim_type": "Dental Care",
+      "claim_amount": 1627.1,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 735,
+      "policy_id": 1106,
+      "pet_name": "Alex",
+      "species": "Cat",
+      "claim_date": "2024-05-21",
+      "claim_type": "Dental Care",
+      "claim_amount": 1127.69,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 736,
+      "policy_id": 1132,
+      "pet_name": "Tracey",
+      "species": "Cat",
+      "claim_date": "2024-08-28",
+      "claim_type": "Surgery",
+      "claim_amount": 283.93,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 737,
+      "policy_id": 1811,
+      "pet_name": "Natalie",
+      "species": "Cat",
+      "claim_date": "2024-09-19",
+      "claim_type": "Medication",
+      "claim_amount": 1375.2,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 738,
+      "policy_id": 1982,
+      "pet_name": "Clinton",
+      "species": "Cat",
+      "claim_date": "2024-07-31",
+      "claim_type": "Surgery",
+      "claim_amount": 104.5,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 739,
+      "policy_id": 1181,
+      "pet_name": "Lance",
+      "species": "Dog",
+      "claim_date": "2024-03-24",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 705.7,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 740,
+      "policy_id": 1822,
+      "pet_name": "Kevin",
+      "species": "Dog",
+      "claim_date": "2023-12-30",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1007.39,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 741,
+      "policy_id": 1397,
+      "pet_name": "Terrence",
+      "species": "Cat",
+      "claim_date": "2024-07-07",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1024.17,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 742,
+      "policy_id": 1458,
+      "pet_name": "Helen",
+      "species": "Cat",
+      "claim_date": "2024-01-06",
+      "claim_type": "Surgery",
+      "claim_amount": 394.56,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 743,
+      "policy_id": 1344,
+      "pet_name": "Amy",
+      "species": "Dog",
+      "claim_date": "2024-07-03",
+      "claim_type": "Medication",
+      "claim_amount": 1487.73,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 744,
+      "policy_id": 1716,
+      "pet_name": "Robert",
+      "species": "Cat",
+      "claim_date": "2024-02-08",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1667.31,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 745,
+      "policy_id": 1396,
+      "pet_name": "Robert",
+      "species": "Dog",
+      "claim_date": "2024-03-20",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 148.31,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 746,
+      "policy_id": 1216,
+      "pet_name": "Pamela",
+      "species": "Cat",
+      "claim_date": "2024-08-24",
+      "claim_type": "Surgery",
+      "claim_amount": 1874.81,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 747,
+      "policy_id": 1477,
+      "pet_name": "Samantha",
+      "species": "Cat",
+      "claim_date": "2024-10-21",
+      "claim_type": "Dental Care",
+      "claim_amount": 1793.53,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 748,
+      "policy_id": 1377,
+      "pet_name": "Daniel",
+      "species": "Cat",
+      "claim_date": "2024-07-31",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 680.46,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 749,
+      "policy_id": 1764,
+      "pet_name": "Gina",
+      "species": "Cat",
+      "claim_date": "2024-10-03",
+      "claim_type": "Dental Care",
+      "claim_amount": 726.95,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 750,
+      "policy_id": 1976,
+      "pet_name": "Jean",
+      "species": "Cat",
+      "claim_date": "2024-09-23",
+      "claim_type": "Vaccination",
+      "claim_amount": 957.05,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 751,
+      "policy_id": 1498,
+      "pet_name": "Hannah",
+      "species": "Cat",
+      "claim_date": "2024-02-06",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 103.39,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 752,
+      "policy_id": 1001,
+      "pet_name": "Andrew",
+      "species": "Dog",
+      "claim_date": "2024-04-18",
+      "claim_type": "Vaccination",
+      "claim_amount": 1247.29,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 753,
+      "policy_id": 1907,
+      "pet_name": "Timothy",
+      "species": "Dog",
+      "claim_date": "2024-04-08",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1049.13,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 754,
+      "policy_id": 1053,
+      "pet_name": "Richard",
+      "species": "Cat",
+      "claim_date": "2024-07-01",
+      "claim_type": "Vaccination",
+      "claim_amount": 1967.89,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 755,
+      "policy_id": 1684,
+      "pet_name": "Diana",
+      "species": "Dog",
+      "claim_date": "2024-01-01",
+      "claim_type": "Dental Care",
+      "claim_amount": 1745.82,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 756,
+      "policy_id": 1144,
+      "pet_name": "Jonathan",
+      "species": "Dog",
+      "claim_date": "2024-05-21",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 720.76,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 757,
+      "policy_id": 1351,
+      "pet_name": "Nicole",
+      "species": "Cat",
+      "claim_date": "2024-10-25",
+      "claim_type": "Surgery",
+      "claim_amount": 370.7,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 758,
+      "policy_id": 1777,
+      "pet_name": "Barbara",
+      "species": "Dog",
+      "claim_date": "2024-03-20",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 869.45,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 759,
+      "policy_id": 1664,
+      "pet_name": "Wendy",
+      "species": "Cat",
+      "claim_date": "2023-12-12",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1561.36,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 760,
+      "policy_id": 1214,
+      "pet_name": "Sandra",
+      "species": "Cat",
+      "claim_date": "2024-01-24",
+      "claim_type": "Surgery",
+      "claim_amount": 533.7,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 761,
+      "policy_id": 1986,
+      "pet_name": "Mike",
+      "species": "Dog",
+      "claim_date": "2024-04-16",
+      "claim_type": "Vaccination",
+      "claim_amount": 1359.19,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 762,
+      "policy_id": 1382,
+      "pet_name": "Victoria",
+      "species": "Dog",
+      "claim_date": "2024-07-09",
+      "claim_type": "Medication",
+      "claim_amount": 298.94,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 763,
+      "policy_id": 1585,
+      "pet_name": "Mark",
+      "species": "Cat",
+      "claim_date": "2023-11-21",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 156.15,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 764,
+      "policy_id": 1243,
+      "pet_name": "Kayla",
+      "species": "Cat",
+      "claim_date": "2024-09-12",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1225.77,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 765,
+      "policy_id": 1094,
+      "pet_name": "Alicia",
+      "species": "Cat",
+      "claim_date": "2024-03-09",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1021.2,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 766,
+      "policy_id": 1964,
+      "pet_name": "Lisa",
+      "species": "Dog",
+      "claim_date": "2024-02-12",
+      "claim_type": "Dental Care",
+      "claim_amount": 199.0,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 767,
+      "policy_id": 1882,
+      "pet_name": "Christina",
+      "species": "Cat",
+      "claim_date": "2024-04-17",
+      "claim_type": "Dental Care",
+      "claim_amount": 883.45,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 768,
+      "policy_id": 1254,
+      "pet_name": "Jessica",
+      "species": "Dog",
+      "claim_date": "2024-08-10",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 526.51,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 769,
+      "policy_id": 1945,
+      "pet_name": "Tommy",
+      "species": "Cat",
+      "claim_date": "2024-10-01",
+      "claim_type": "Medication",
+      "claim_amount": 530.21,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 770,
+      "policy_id": 1439,
+      "pet_name": "Hailey",
+      "species": "Dog",
+      "claim_date": "2024-04-22",
+      "claim_type": "Surgery",
+      "claim_amount": 721.6,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 771,
+      "policy_id": 1820,
+      "pet_name": "Christopher",
+      "species": "Dog",
+      "claim_date": "2024-06-11",
+      "claim_type": "Vaccination",
+      "claim_amount": 738.95,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 772,
+      "policy_id": 1706,
+      "pet_name": "Benjamin",
+      "species": "Dog",
+      "claim_date": "2024-01-26",
+      "claim_type": "Dental Care",
+      "claim_amount": 1471.36,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 773,
+      "policy_id": 1259,
+      "pet_name": "Melissa",
+      "species": "Cat",
+      "claim_date": "2024-05-22",
+      "claim_type": "Surgery",
+      "claim_amount": 1657.87,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 774,
+      "policy_id": 1175,
+      "pet_name": "Troy",
+      "species": "Cat",
+      "claim_date": "2024-04-04",
+      "claim_type": "Vaccination",
+      "claim_amount": 1788.57,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 775,
+      "policy_id": 1066,
+      "pet_name": "Jo",
+      "species": "Dog",
+      "claim_date": "2024-09-21",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 584.77,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 776,
+      "policy_id": 1388,
+      "pet_name": "Christian",
+      "species": "Dog",
+      "claim_date": "2024-06-29",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 889.06,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 777,
+      "policy_id": 1453,
+      "pet_name": "Timothy",
+      "species": "Cat",
+      "claim_date": "2024-05-03",
+      "claim_type": "Dental Care",
+      "claim_amount": 844.76,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 778,
+      "policy_id": 1347,
+      "pet_name": "Nicole",
+      "species": "Cat",
+      "claim_date": "2024-01-22",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 744.76,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 779,
+      "policy_id": 1983,
+      "pet_name": "Julie",
+      "species": "Dog",
+      "claim_date": "2024-07-21",
+      "claim_type": "Surgery",
+      "claim_amount": 758.43,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 780,
+      "policy_id": 1513,
+      "pet_name": "Mallory",
+      "species": "Dog",
+      "claim_date": "2023-12-02",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1253.5,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 781,
+      "policy_id": 1516,
+      "pet_name": "Diana",
+      "species": "Dog",
+      "claim_date": "2024-04-30",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1222.79,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 782,
+      "policy_id": 1259,
+      "pet_name": "Steven",
+      "species": "Dog",
+      "claim_date": "2024-08-04",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1272.03,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 783,
+      "policy_id": 1991,
+      "pet_name": "Rodney",
+      "species": "Dog",
+      "claim_date": "2023-12-07",
+      "claim_type": "Medication",
+      "claim_amount": 566.43,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 784,
+      "policy_id": 1104,
+      "pet_name": "David",
+      "species": "Dog",
+      "claim_date": "2024-01-08",
+      "claim_type": "Dental Care",
+      "claim_amount": 859.75,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 785,
+      "policy_id": 1484,
+      "pet_name": "Susan",
+      "species": "Dog",
+      "claim_date": "2024-09-23",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 470.59,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 786,
+      "policy_id": 1762,
+      "pet_name": "Crystal",
+      "species": "Cat",
+      "claim_date": "2024-06-08",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 837.57,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 787,
+      "policy_id": 1031,
+      "pet_name": "Keith",
+      "species": "Dog",
+      "claim_date": "2024-08-15",
+      "claim_type": "Dental Care",
+      "claim_amount": 1809.49,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 788,
+      "policy_id": 1758,
+      "pet_name": "Danny",
+      "species": "Cat",
+      "claim_date": "2024-05-31",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 145.87,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 789,
+      "policy_id": 1342,
+      "pet_name": "Mary",
+      "species": "Cat",
+      "claim_date": "2024-03-03",
+      "claim_type": "Dental Care",
+      "claim_amount": 814.27,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 790,
+      "policy_id": 1191,
+      "pet_name": "Larry",
+      "species": "Cat",
+      "claim_date": "2024-01-05",
+      "claim_type": "Dental Care",
+      "claim_amount": 1649.9,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 791,
+      "policy_id": 1336,
+      "pet_name": "Fernando",
+      "species": "Dog",
+      "claim_date": "2024-06-18",
+      "claim_type": "Medication",
+      "claim_amount": 972.17,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 792,
+      "policy_id": 1614,
+      "pet_name": "Marc",
+      "species": "Dog",
+      "claim_date": "2024-06-03",
+      "claim_type": "Dental Care",
+      "claim_amount": 1826.31,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 793,
+      "policy_id": 1237,
+      "pet_name": "Todd",
+      "species": "Cat",
+      "claim_date": "2024-01-06",
+      "claim_type": "Vaccination",
+      "claim_amount": 266.35,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 794,
+      "policy_id": 1344,
+      "pet_name": "Amy",
+      "species": "Dog",
+      "claim_date": "2024-10-29",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1862.18,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 795,
+      "policy_id": 1339,
+      "pet_name": "Amanda",
+      "species": "Dog",
+      "claim_date": "2023-12-24",
+      "claim_type": "Medication",
+      "claim_amount": 1274.13,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 796,
+      "policy_id": 1662,
+      "pet_name": "Miguel",
+      "species": "Cat",
+      "claim_date": "2024-03-27",
+      "claim_type": "Vaccination",
+      "claim_amount": 1354.14,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 797,
+      "policy_id": 1330,
+      "pet_name": "Charlotte",
+      "species": "Cat",
+      "claim_date": "2024-02-07",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1461.87,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 798,
+      "policy_id": 1936,
+      "pet_name": "Benjamin",
+      "species": "Dog",
+      "claim_date": "2024-04-30",
+      "claim_type": "Surgery",
+      "claim_amount": 1780.08,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 799,
+      "policy_id": 1036,
+      "pet_name": "James",
+      "species": "Dog",
+      "claim_date": "2023-11-24",
+      "claim_type": "Vaccination",
+      "claim_amount": 542.11,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 800,
+      "policy_id": 1557,
+      "pet_name": "Susan",
+      "species": "Dog",
+      "claim_date": "2024-05-15",
+      "claim_type": "Surgery",
+      "claim_amount": 1814.59,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 801,
+      "policy_id": 1712,
+      "pet_name": "Victoria",
+      "species": "Cat",
+      "claim_date": "2024-09-18",
+      "claim_type": "Dental Care",
+      "claim_amount": 376.04,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 802,
+      "policy_id": 1792,
+      "pet_name": "Cheryl",
+      "species": "Cat",
+      "claim_date": "2024-05-08",
+      "claim_type": "Medication",
+      "claim_amount": 765.59,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 803,
+      "policy_id": 1757,
+      "pet_name": "Darryl",
+      "species": "Dog",
+      "claim_date": "2024-01-22",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1706.55,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 804,
+      "policy_id": 1711,
+      "pet_name": "Duane",
+      "species": "Cat",
+      "claim_date": "2024-08-25",
+      "claim_type": "Medication",
+      "claim_amount": 689.07,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 805,
+      "policy_id": 1417,
+      "pet_name": "Max",
+      "species": "Dog",
+      "claim_date": "2024-05-02",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1966.4,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 806,
+      "policy_id": 1895,
+      "pet_name": "Anne",
+      "species": "Cat",
+      "claim_date": "2024-08-04",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1941.89,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 807,
+      "policy_id": 1189,
+      "pet_name": "Heather",
+      "species": "Dog",
+      "claim_date": "2024-10-08",
+      "claim_type": "Vaccination",
+      "claim_amount": 1034.96,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 808,
+      "policy_id": 1700,
+      "pet_name": "Sandra",
+      "species": "Dog",
+      "claim_date": "2024-10-18",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1707.0,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 809,
+      "policy_id": 1703,
+      "pet_name": "Brittany",
+      "species": "Dog",
+      "claim_date": "2024-05-15",
+      "claim_type": "Vaccination",
+      "claim_amount": 1563.76,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 810,
+      "policy_id": 1185,
+      "pet_name": "Carol",
+      "species": "Cat",
+      "claim_date": "2024-02-16",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 625.8,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 811,
+      "policy_id": 1827,
+      "pet_name": "Scott",
+      "species": "Cat",
+      "claim_date": "2024-09-12",
+      "claim_type": "Vaccination",
+      "claim_amount": 675.86,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 812,
+      "policy_id": 1456,
+      "pet_name": "Erica",
+      "species": "Dog",
+      "claim_date": "2024-07-15",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1086.64,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 813,
+      "policy_id": 1779,
+      "pet_name": "Dawn",
+      "species": "Cat",
+      "claim_date": "2023-11-10",
+      "claim_type": "Surgery",
+      "claim_amount": 1745.83,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 814,
+      "policy_id": 1935,
+      "pet_name": "Barbara",
+      "species": "Cat",
+      "claim_date": "2024-09-24",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1222.83,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 815,
+      "policy_id": 1899,
+      "pet_name": "Denise",
+      "species": "Dog",
+      "claim_date": "2024-10-02",
+      "claim_type": "Vaccination",
+      "claim_amount": 1798.33,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 816,
+      "policy_id": 1456,
+      "pet_name": "Clifford",
+      "species": "Dog",
+      "claim_date": "2023-12-25",
+      "claim_type": "Dental Care",
+      "claim_amount": 1203.0,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 817,
+      "policy_id": 1075,
+      "pet_name": "John",
+      "species": "Cat",
+      "claim_date": "2024-04-05",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 566.63,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 818,
+      "policy_id": 1034,
+      "pet_name": "Hannah",
+      "species": "Dog",
+      "claim_date": "2024-01-07",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1062.64,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 819,
+      "policy_id": 1918,
+      "pet_name": "Lisa",
+      "species": "Dog",
+      "claim_date": "2024-01-23",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 876.3,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 820,
+      "policy_id": 1852,
+      "pet_name": "Barbara",
+      "species": "Dog",
+      "claim_date": "2024-09-18",
+      "claim_type": "Vaccination",
+      "claim_amount": 358.74,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 821,
+      "policy_id": 1050,
+      "pet_name": "David",
+      "species": "Dog",
+      "claim_date": "2024-05-20",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1276.3,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 822,
+      "policy_id": 1197,
+      "pet_name": "Darryl",
+      "species": "Cat",
+      "claim_date": "2024-04-21",
+      "claim_type": "Vaccination",
+      "claim_amount": 1263.89,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 823,
+      "policy_id": 1327,
+      "pet_name": "Laura",
+      "species": "Dog",
+      "claim_date": "2024-04-18",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 102.98,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 824,
+      "policy_id": 1606,
+      "pet_name": "Sean",
+      "species": "Cat",
+      "claim_date": "2024-05-23",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1341.02,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 825,
+      "policy_id": 1422,
+      "pet_name": "Julie",
+      "species": "Cat",
+      "claim_date": "2024-03-09",
+      "claim_type": "Dental Care",
+      "claim_amount": 472.4,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 826,
+      "policy_id": 1371,
+      "pet_name": "Sharon",
+      "species": "Cat",
+      "claim_date": "2024-10-12",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 744.11,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 827,
+      "policy_id": 1113,
+      "pet_name": "Hunter",
+      "species": "Cat",
+      "claim_date": "2024-01-27",
+      "claim_type": "Surgery",
+      "claim_amount": 370.64,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 828,
+      "policy_id": 1094,
+      "pet_name": "Anthony",
+      "species": "Dog",
+      "claim_date": "2024-02-24",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 386.07,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 829,
+      "policy_id": 1292,
+      "pet_name": "Bobby",
+      "species": "Dog",
+      "claim_date": "2024-09-15",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 979.82,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 830,
+      "policy_id": 1540,
+      "pet_name": "Shelia",
+      "species": "Cat",
+      "claim_date": "2024-01-18",
+      "claim_type": "Medication",
+      "claim_amount": 961.81,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 831,
+      "policy_id": 1934,
+      "pet_name": "Kim",
+      "species": "Cat",
+      "claim_date": "2024-06-19",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 257.85,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 832,
+      "policy_id": 1352,
+      "pet_name": "Chris",
+      "species": "Cat",
+      "claim_date": "2024-01-20",
+      "claim_type": "Surgery",
+      "claim_amount": 751.19,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 833,
+      "policy_id": 1740,
+      "pet_name": "Philip",
+      "species": "Dog",
+      "claim_date": "2023-11-18",
+      "claim_type": "Surgery",
+      "claim_amount": 744.58,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 834,
+      "policy_id": 1376,
+      "pet_name": "Ashley",
+      "species": "Dog",
+      "claim_date": "2024-07-10",
+      "claim_type": "Dental Care",
+      "claim_amount": 365.41,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 835,
+      "policy_id": 1124,
+      "pet_name": "Heidi",
+      "species": "Dog",
+      "claim_date": "2024-01-29",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1219.47,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 836,
+      "policy_id": 1334,
+      "pet_name": "Jacob",
+      "species": "Dog",
+      "claim_date": "2024-06-10",
+      "claim_type": "Surgery",
+      "claim_amount": 624.02,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 837,
+      "policy_id": 1812,
+      "pet_name": "Jacqueline",
+      "species": "Dog",
+      "claim_date": "2024-05-02",
+      "claim_type": "Surgery",
+      "claim_amount": 405.61,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 838,
+      "policy_id": 1370,
+      "pet_name": "Victor",
+      "species": "Dog",
+      "claim_date": "2024-04-16",
+      "claim_type": "Dental Care",
+      "claim_amount": 298.86,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 839,
+      "policy_id": 1003,
+      "pet_name": "Jacqueline",
+      "species": "Dog",
+      "claim_date": "2024-11-06",
+      "claim_type": "Medication",
+      "claim_amount": 97.54,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 840,
+      "policy_id": 1369,
+      "pet_name": "Jeffrey",
+      "species": "Cat",
+      "claim_date": "2024-04-21",
+      "claim_type": "Surgery",
+      "claim_amount": 147.93,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 841,
+      "policy_id": 1715,
+      "pet_name": "Tammy",
+      "species": "Dog",
+      "claim_date": "2023-12-17",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1559.63,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 842,
+      "policy_id": 1828,
+      "pet_name": "Eric",
+      "species": "Dog",
+      "claim_date": "2024-06-25",
+      "claim_type": "Dental Care",
+      "claim_amount": 1869.11,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 843,
+      "policy_id": 1437,
+      "pet_name": "Olivia",
+      "species": "Cat",
+      "claim_date": "2024-04-21",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 547.33,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 844,
+      "policy_id": 1013,
+      "pet_name": "Jonathan",
+      "species": "Dog",
+      "claim_date": "2024-08-23",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 306.12,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 845,
+      "policy_id": 1798,
+      "pet_name": "Andrea",
+      "species": "Dog",
+      "claim_date": "2024-09-08",
+      "claim_type": "Dental Care",
+      "claim_amount": 568.83,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 846,
+      "policy_id": 1885,
+      "pet_name": "Margaret",
+      "species": "Dog",
+      "claim_date": "2024-09-24",
+      "claim_type": "Medication",
+      "claim_amount": 817.53,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 847,
+      "policy_id": 1400,
+      "pet_name": "Daniel",
+      "species": "Cat",
+      "claim_date": "2024-02-05",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1478.57,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 848,
+      "policy_id": 1516,
+      "pet_name": "Bradley",
+      "species": "Cat",
+      "claim_date": "2024-10-25",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 124.48,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 849,
+      "policy_id": 1860,
+      "pet_name": "Anthony",
+      "species": "Cat",
+      "claim_date": "2024-04-14",
+      "claim_type": "Dental Care",
+      "claim_amount": 1458.34,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 850,
+      "policy_id": 1724,
+      "pet_name": "Pamela",
+      "species": "Dog",
+      "claim_date": "2024-07-25",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 551.28,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 851,
+      "policy_id": 1482,
+      "pet_name": "Susan",
+      "species": "Cat",
+      "claim_date": "2024-06-20",
+      "claim_type": "Vaccination",
+      "claim_amount": 1349.18,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 852,
+      "policy_id": 1033,
+      "pet_name": "Joseph",
+      "species": "Cat",
+      "claim_date": "2024-08-27",
+      "claim_type": "Medication",
+      "claim_amount": 1848.84,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 853,
+      "policy_id": 1562,
+      "pet_name": "Cindy",
+      "species": "Dog",
+      "claim_date": "2024-10-14",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1151.3,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 854,
+      "policy_id": 1738,
+      "pet_name": "Rebecca",
+      "species": "Dog",
+      "claim_date": "2024-04-28",
+      "claim_type": "Dental Care",
+      "claim_amount": 574.16,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 855,
+      "policy_id": 1557,
+      "pet_name": "Brittany",
+      "species": "Cat",
+      "claim_date": "2023-12-02",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1998.28,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 856,
+      "policy_id": 1996,
+      "pet_name": "Sandra",
+      "species": "Cat",
+      "claim_date": "2024-09-27",
+      "claim_type": "Dental Care",
+      "claim_amount": 1709.45,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 857,
+      "policy_id": 1803,
+      "pet_name": "Colleen",
+      "species": "Cat",
+      "claim_date": "2024-01-06",
+      "claim_type": "Surgery",
+      "claim_amount": 1315.32,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 858,
+      "policy_id": 1395,
+      "pet_name": "Gail",
+      "species": "Cat",
+      "claim_date": "2024-02-20",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 360.8,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 859,
+      "policy_id": 1553,
+      "pet_name": "Elizabeth",
+      "species": "Cat",
+      "claim_date": "2024-08-13",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1336.42,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 860,
+      "policy_id": 1192,
+      "pet_name": "Kathleen",
+      "species": "Dog",
+      "claim_date": "2024-10-20",
+      "claim_type": "Medication",
+      "claim_amount": 765.5,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 861,
+      "policy_id": 1133,
+      "pet_name": "Brian",
+      "species": "Cat",
+      "claim_date": "2024-08-14",
+      "claim_type": "Medication",
+      "claim_amount": 1886.84,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 862,
+      "policy_id": 1639,
+      "pet_name": "Crystal",
+      "species": "Dog",
+      "claim_date": "2024-10-19",
+      "claim_type": "Medication",
+      "claim_amount": 705.67,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 863,
+      "policy_id": 1990,
+      "pet_name": "Heather",
+      "species": "Dog",
+      "claim_date": "2024-01-15",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1194.2,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 864,
+      "policy_id": 1905,
+      "pet_name": "Lacey",
+      "species": "Cat",
+      "claim_date": "2024-04-25",
+      "claim_type": "Vaccination",
+      "claim_amount": 1294.77,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 865,
+      "policy_id": 1023,
+      "pet_name": "Christina",
+      "species": "Dog",
+      "claim_date": "2023-11-17",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1621.71,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 866,
+      "policy_id": 1716,
+      "pet_name": "Sharon",
+      "species": "Cat",
+      "claim_date": "2024-08-13",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 196.56,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 867,
+      "policy_id": 1631,
+      "pet_name": "Timothy",
+      "species": "Dog",
+      "claim_date": "2023-12-07",
+      "claim_type": "Vaccination",
+      "claim_amount": 486.49,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 868,
+      "policy_id": 1703,
+      "pet_name": "Lisa",
+      "species": "Dog",
+      "claim_date": "2024-03-29",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 144.69,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 869,
+      "policy_id": 1793,
+      "pet_name": "Ruth",
+      "species": "Dog",
+      "claim_date": "2024-08-05",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1890.71,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 870,
+      "policy_id": 1686,
+      "pet_name": "Courtney",
+      "species": "Cat",
+      "claim_date": "2024-04-29",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 860.83,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 871,
+      "policy_id": 1087,
+      "pet_name": "Joshua",
+      "species": "Cat",
+      "claim_date": "2024-02-20",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 262.29,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 872,
+      "policy_id": 1989,
+      "pet_name": "Melissa",
+      "species": "Cat",
+      "claim_date": "2024-06-06",
+      "claim_type": "Vaccination",
+      "claim_amount": 529.86,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 873,
+      "policy_id": 1125,
+      "pet_name": "Emily",
+      "species": "Dog",
+      "claim_date": "2023-12-24",
+      "claim_type": "Dental Care",
+      "claim_amount": 1335.58,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 874,
+      "policy_id": 1364,
+      "pet_name": "Diana",
+      "species": "Dog",
+      "claim_date": "2024-01-14",
+      "claim_type": "Surgery",
+      "claim_amount": 648.72,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 875,
+      "policy_id": 1251,
+      "pet_name": "Whitney",
+      "species": "Dog",
+      "claim_date": "2023-12-31",
+      "claim_type": "Medication",
+      "claim_amount": 1684.36,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 876,
+      "policy_id": 1223,
+      "pet_name": "Ann",
+      "species": "Dog",
+      "claim_date": "2024-04-24",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1013.61,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 877,
+      "policy_id": 1147,
+      "pet_name": "Katie",
+      "species": "Cat",
+      "claim_date": "2024-03-24",
+      "claim_type": "Surgery",
+      "claim_amount": 1632.78,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 878,
+      "policy_id": 1827,
+      "pet_name": "Joshua",
+      "species": "Dog",
+      "claim_date": "2024-08-17",
+      "claim_type": "Medication",
+      "claim_amount": 708.25,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 879,
+      "policy_id": 1407,
+      "pet_name": "Justin",
+      "species": "Dog",
+      "claim_date": "2023-12-27",
+      "claim_type": "Medication",
+      "claim_amount": 331.28,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 880,
+      "policy_id": 1438,
+      "pet_name": "Susan",
+      "species": "Cat",
+      "claim_date": "2024-07-24",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 634.74,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 881,
+      "policy_id": 1721,
+      "pet_name": "Timothy",
+      "species": "Dog",
+      "claim_date": "2024-03-30",
+      "claim_type": "Medication",
+      "claim_amount": 1527.8,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 882,
+      "policy_id": 1378,
+      "pet_name": "Barbara",
+      "species": "Cat",
+      "claim_date": "2024-02-29",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1587.77,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 883,
+      "policy_id": 1369,
+      "pet_name": "Nicholas",
+      "species": "Dog",
+      "claim_date": "2024-07-17",
+      "claim_type": "Dental Care",
+      "claim_amount": 742.1,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 884,
+      "policy_id": 1070,
+      "pet_name": "Jason",
+      "species": "Dog",
+      "claim_date": "2024-07-07",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 467.42,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 885,
+      "policy_id": 1056,
+      "pet_name": "Patrick",
+      "species": "Cat",
+      "claim_date": "2024-10-08",
+      "claim_type": "Dental Care",
+      "claim_amount": 1553.5,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 886,
+      "policy_id": 1237,
+      "pet_name": "Olivia",
+      "species": "Cat",
+      "claim_date": "2024-04-29",
+      "claim_type": "Dental Care",
+      "claim_amount": 337.69,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 887,
+      "policy_id": 1381,
+      "pet_name": "Dean",
+      "species": "Cat",
+      "claim_date": "2024-11-01",
+      "claim_type": "Surgery",
+      "claim_amount": 287.98,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 888,
+      "policy_id": 1554,
+      "pet_name": "Hannah",
+      "species": "Cat",
+      "claim_date": "2024-06-12",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 498.81,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 889,
+      "policy_id": 1875,
+      "pet_name": "John",
+      "species": "Cat",
+      "claim_date": "2024-09-02",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1960.66,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 890,
+      "policy_id": 1723,
+      "pet_name": "Lisa",
+      "species": "Dog",
+      "claim_date": "2024-04-01",
+      "claim_type": "Medication",
+      "claim_amount": 612.31,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 891,
+      "policy_id": 1477,
+      "pet_name": "Timothy",
+      "species": "Dog",
+      "claim_date": "2024-06-12",
+      "claim_type": "Vaccination",
+      "claim_amount": 401.5,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 892,
+      "policy_id": 1108,
+      "pet_name": "Samuel",
+      "species": "Dog",
+      "claim_date": "2024-09-26",
+      "claim_type": "Medication",
+      "claim_amount": 1295.17,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 893,
+      "policy_id": 1872,
+      "pet_name": "Tyler",
+      "species": "Dog",
+      "claim_date": "2024-08-01",
+      "claim_type": "Surgery",
+      "claim_amount": 1581.52,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 894,
+      "policy_id": 1287,
+      "pet_name": "Daniel",
+      "species": "Dog",
+      "claim_date": "2024-03-29",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1640.09,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 895,
+      "policy_id": 1686,
+      "pet_name": "Cassandra",
+      "species": "Cat",
+      "claim_date": "2024-07-13",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1441.41,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 896,
+      "policy_id": 1716,
+      "pet_name": "James",
+      "species": "Cat",
+      "claim_date": "2024-06-29",
+      "claim_type": "Surgery",
+      "claim_amount": 1264.17,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 897,
+      "policy_id": 1890,
+      "pet_name": "Danielle",
+      "species": "Cat",
+      "claim_date": "2024-10-21",
+      "claim_type": "Vaccination",
+      "claim_amount": 1453.8,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 898,
+      "policy_id": 1581,
+      "pet_name": "Jacqueline",
+      "species": "Dog",
+      "claim_date": "2024-04-25",
+      "claim_type": "Dental Care",
+      "claim_amount": 333.29,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 899,
+      "policy_id": 1324,
+      "pet_name": "Bruce",
+      "species": "Cat",
+      "claim_date": "2024-02-27",
+      "claim_type": "Surgery",
+      "claim_amount": 161.65,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 900,
+      "policy_id": 1307,
+      "pet_name": "Carl",
+      "species": "Dog",
+      "claim_date": "2024-03-19",
+      "claim_type": "Surgery",
+      "claim_amount": 175.04,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 901,
+      "policy_id": 1538,
+      "pet_name": "Traci",
+      "species": "Cat",
+      "claim_date": "2024-03-31",
+      "claim_type": "Medication",
+      "claim_amount": 634.86,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 902,
+      "policy_id": 1780,
+      "pet_name": "Melissa",
+      "species": "Cat",
+      "claim_date": "2024-06-09",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1195.14,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 903,
+      "policy_id": 1589,
+      "pet_name": "Dominique",
+      "species": "Dog",
+      "claim_date": "2024-04-21",
+      "claim_type": "Surgery",
+      "claim_amount": 727.31,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 904,
+      "policy_id": 1114,
+      "pet_name": "Rachel",
+      "species": "Dog",
+      "claim_date": "2024-03-21",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 550.04,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 905,
+      "policy_id": 1230,
+      "pet_name": "Logan",
+      "species": "Dog",
+      "claim_date": "2024-07-06",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 626.77,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 906,
+      "policy_id": 1140,
+      "pet_name": "Dominique",
+      "species": "Cat",
+      "claim_date": "2024-09-01",
+      "claim_type": "Surgery",
+      "claim_amount": 979.35,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 907,
+      "policy_id": 1765,
+      "pet_name": "Alicia",
+      "species": "Dog",
+      "claim_date": "2024-10-16",
+      "claim_type": "Medication",
+      "claim_amount": 1144.05,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 908,
+      "policy_id": 1644,
+      "pet_name": "Steven",
+      "species": "Dog",
+      "claim_date": "2024-05-06",
+      "claim_type": "Dental Care",
+      "claim_amount": 1972.98,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 909,
+      "policy_id": 1644,
+      "pet_name": "Daniel",
+      "species": "Cat",
+      "claim_date": "2024-06-19",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 912.38,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 910,
+      "policy_id": 1850,
+      "pet_name": "Danielle",
+      "species": "Cat",
+      "claim_date": "2024-09-02",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1350.95,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 911,
+      "policy_id": 1280,
+      "pet_name": "Joshua",
+      "species": "Dog",
+      "claim_date": "2024-08-14",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 894.79,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 912,
+      "policy_id": 1656,
+      "pet_name": "Craig",
+      "species": "Dog",
+      "claim_date": "2024-06-04",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1901.11,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 913,
+      "policy_id": 1634,
+      "pet_name": "Kristin",
+      "species": "Dog",
+      "claim_date": "2024-10-10",
+      "claim_type": "Surgery",
+      "claim_amount": 294.81,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 914,
+      "policy_id": 1408,
+      "pet_name": "Natasha",
+      "species": "Dog",
+      "claim_date": "2024-02-05",
+      "claim_type": "Dental Care",
+      "claim_amount": 202.11,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 915,
+      "policy_id": 1438,
+      "pet_name": "Harry",
+      "species": "Dog",
+      "claim_date": "2024-03-26",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1608.03,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 916,
+      "policy_id": 1351,
+      "pet_name": "Tanya",
+      "species": "Cat",
+      "claim_date": "2024-08-09",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 400.59,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 917,
+      "policy_id": 1484,
+      "pet_name": "Jonathan",
+      "species": "Dog",
+      "claim_date": "2024-07-09",
+      "claim_type": "Surgery",
+      "claim_amount": 1718.58,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 918,
+      "policy_id": 1780,
+      "pet_name": "Anthony",
+      "species": "Dog",
+      "claim_date": "2024-06-29",
+      "claim_type": "Vaccination",
+      "claim_amount": 1599.65,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 919,
+      "policy_id": 1514,
+      "pet_name": "Shelly",
+      "species": "Dog",
+      "claim_date": "2024-09-08",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 879.05,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 920,
+      "policy_id": 1495,
+      "pet_name": "Hannah",
+      "species": "Cat",
+      "claim_date": "2024-08-08",
+      "claim_type": "Medication",
+      "claim_amount": 307.77,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 921,
+      "policy_id": 1797,
+      "pet_name": "Paul",
+      "species": "Dog",
+      "claim_date": "2024-09-25",
+      "claim_type": "Medication",
+      "claim_amount": 1673.06,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 922,
+      "policy_id": 1744,
+      "pet_name": "Victor",
+      "species": "Dog",
+      "claim_date": "2024-09-15",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1410.58,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 923,
+      "policy_id": 1484,
+      "pet_name": "Linda",
+      "species": "Dog",
+      "claim_date": "2024-06-12",
+      "claim_type": "Medication",
+      "claim_amount": 1186.17,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 924,
+      "policy_id": 1561,
+      "pet_name": "Christine",
+      "species": "Cat",
+      "claim_date": "2024-08-24",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1792.73,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 925,
+      "policy_id": 1913,
+      "pet_name": "Martha",
+      "species": "Dog",
+      "claim_date": "2024-03-05",
+      "claim_type": "Medication",
+      "claim_amount": 1285.23,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 926,
+      "policy_id": 1376,
+      "pet_name": "Justin",
+      "species": "Cat",
+      "claim_date": "2023-12-17",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 930.16,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 927,
+      "policy_id": 1475,
+      "pet_name": "Andrew",
+      "species": "Dog",
+      "claim_date": "2024-09-30",
+      "claim_type": "Medication",
+      "claim_amount": 1952.67,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 928,
+      "policy_id": 1638,
+      "pet_name": "Donald",
+      "species": "Dog",
+      "claim_date": "2024-07-06",
+      "claim_type": "Surgery",
+      "claim_amount": 1369.07,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 929,
+      "policy_id": 1329,
+      "pet_name": "Steven",
+      "species": "Cat",
+      "claim_date": "2023-12-07",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 337.49,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 930,
+      "policy_id": 1417,
+      "pet_name": "Christian",
+      "species": "Dog",
+      "claim_date": "2024-02-23",
+      "claim_type": "Vaccination",
+      "claim_amount": 854.54,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 931,
+      "policy_id": 1700,
+      "pet_name": "John",
+      "species": "Cat",
+      "claim_date": "2024-02-07",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1399.49,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 932,
+      "policy_id": 1612,
+      "pet_name": "Tyler",
+      "species": "Dog",
+      "claim_date": "2024-01-04",
+      "claim_type": "Dental Care",
+      "claim_amount": 1006.32,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 933,
+      "policy_id": 1240,
+      "pet_name": "James",
+      "species": "Cat",
+      "claim_date": "2024-02-29",
+      "claim_type": "Surgery",
+      "claim_amount": 1788.32,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 934,
+      "policy_id": 1244,
+      "pet_name": "Travis",
+      "species": "Dog",
+      "claim_date": "2024-08-13",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1629.05,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 935,
+      "policy_id": 1343,
+      "pet_name": "Sarah",
+      "species": "Dog",
+      "claim_date": "2024-03-11",
+      "claim_type": "Dental Care",
+      "claim_amount": 1463.45,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 936,
+      "policy_id": 1193,
+      "pet_name": "Bruce",
+      "species": "Cat",
+      "claim_date": "2024-10-10",
+      "claim_type": "Medication",
+      "claim_amount": 1876.42,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 937,
+      "policy_id": 1065,
+      "pet_name": "Lacey",
+      "species": "Dog",
+      "claim_date": "2024-07-26",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1757.85,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 938,
+      "policy_id": 1722,
+      "pet_name": "David",
+      "species": "Cat",
+      "claim_date": "2024-04-23",
+      "claim_type": "Surgery",
+      "claim_amount": 1905.42,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 939,
+      "policy_id": 1269,
+      "pet_name": "Tina",
+      "species": "Dog",
+      "claim_date": "2024-05-21",
+      "claim_type": "Surgery",
+      "claim_amount": 1401.81,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 940,
+      "policy_id": 1397,
+      "pet_name": "David",
+      "species": "Dog",
+      "claim_date": "2024-01-09",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1394.14,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 941,
+      "policy_id": 1818,
+      "pet_name": "Scott",
+      "species": "Dog",
+      "claim_date": "2023-12-20",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1243.44,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 942,
+      "policy_id": 1757,
+      "pet_name": "Anna",
+      "species": "Cat",
+      "claim_date": "2024-09-10",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1329.65,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 943,
+      "policy_id": 1730,
+      "pet_name": "Tricia",
+      "species": "Cat",
+      "claim_date": "2024-08-21",
+      "claim_type": "Vaccination",
+      "claim_amount": 767.47,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 944,
+      "policy_id": 1104,
+      "pet_name": "Christian",
+      "species": "Dog",
+      "claim_date": "2024-01-04",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 810.33,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 945,
+      "policy_id": 1963,
+      "pet_name": "Brandon",
+      "species": "Dog",
+      "claim_date": "2024-02-22",
+      "claim_type": "Dental Care",
+      "claim_amount": 1519.89,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 946,
+      "policy_id": 1143,
+      "pet_name": "Jason",
+      "species": "Dog",
+      "claim_date": "2023-12-28",
+      "claim_type": "Vaccination",
+      "claim_amount": 805.56,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 947,
+      "policy_id": 1279,
+      "pet_name": "Nicholas",
+      "species": "Dog",
+      "claim_date": "2024-08-17",
+      "claim_type": "Medication",
+      "claim_amount": 1215.88,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 948,
+      "policy_id": 1517,
+      "pet_name": "Cynthia",
+      "species": "Cat",
+      "claim_date": "2024-10-21",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1312.97,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 949,
+      "policy_id": 1220,
+      "pet_name": "Tina",
+      "species": "Cat",
+      "claim_date": "2024-07-01",
+      "claim_type": "Medication",
+      "claim_amount": 812.37,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 950,
+      "policy_id": 1806,
+      "pet_name": "Joseph",
+      "species": "Dog",
+      "claim_date": "2024-09-20",
+      "claim_type": "Medication",
+      "claim_amount": 1258.27,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 951,
+      "policy_id": 1374,
+      "pet_name": "Cheryl",
+      "species": "Dog",
+      "claim_date": "2024-10-04",
+      "claim_type": "Dental Care",
+      "claim_amount": 999.07,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 952,
+      "policy_id": 1321,
+      "pet_name": "Sara",
+      "species": "Dog",
+      "claim_date": "2024-04-08",
+      "claim_type": "Dental Care",
+      "claim_amount": 612.63,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 953,
+      "policy_id": 1041,
+      "pet_name": "Robert",
+      "species": "Dog",
+      "claim_date": "2023-11-11",
+      "claim_type": "Dental Care",
+      "claim_amount": 70.84,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 954,
+      "policy_id": 1936,
+      "pet_name": "Karen",
+      "species": "Cat",
+      "claim_date": "2024-07-10",
+      "claim_type": "Vaccination",
+      "claim_amount": 683.65,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 955,
+      "policy_id": 1334,
+      "pet_name": "Andrea",
+      "species": "Cat",
+      "claim_date": "2024-04-10",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 566.54,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 956,
+      "policy_id": 1120,
+      "pet_name": "Michael",
+      "species": "Cat",
+      "claim_date": "2024-02-06",
+      "claim_type": "Surgery",
+      "claim_amount": 278.49,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 957,
+      "policy_id": 1973,
+      "pet_name": "Desiree",
+      "species": "Cat",
+      "claim_date": "2024-07-24",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 58.99,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 958,
+      "policy_id": 1712,
+      "pet_name": "Ann",
+      "species": "Cat",
+      "claim_date": "2024-05-31",
+      "claim_type": "Surgery",
+      "claim_amount": 1129.63,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 959,
+      "policy_id": 1248,
+      "pet_name": "Patricia",
+      "species": "Dog",
+      "claim_date": "2023-11-11",
+      "claim_type": "Vaccination",
+      "claim_amount": 1762.54,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 960,
+      "policy_id": 1322,
+      "pet_name": "Nicholas",
+      "species": "Dog",
+      "claim_date": "2024-10-29",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 430.81,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 961,
+      "policy_id": 1980,
+      "pet_name": "Dakota",
+      "species": "Cat",
+      "claim_date": "2024-03-21",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1270.14,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 962,
+      "policy_id": 1102,
+      "pet_name": "James",
+      "species": "Dog",
+      "claim_date": "2024-03-24",
+      "claim_type": "Dental Care",
+      "claim_amount": 1783.43,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 963,
+      "policy_id": 1636,
+      "pet_name": "Ronnie",
+      "species": "Cat",
+      "claim_date": "2024-01-20",
+      "claim_type": "Dental Care",
+      "claim_amount": 106.16,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 964,
+      "policy_id": 1125,
+      "pet_name": "Casey",
+      "species": "Cat",
+      "claim_date": "2024-08-01",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1693.2,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 965,
+      "policy_id": 1481,
+      "pet_name": "Christopher",
+      "species": "Dog",
+      "claim_date": "2024-07-15",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1328.41,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 966,
+      "policy_id": 1560,
+      "pet_name": "Norman",
+      "species": "Cat",
+      "claim_date": "2024-02-04",
+      "claim_type": "Vaccination",
+      "claim_amount": 889.8,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 967,
+      "policy_id": 1757,
+      "pet_name": "David",
+      "species": "Dog",
+      "claim_date": "2024-03-21",
+      "claim_type": "Surgery",
+      "claim_amount": 306.5,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 968,
+      "policy_id": 1386,
+      "pet_name": "Michelle",
+      "species": "Cat",
+      "claim_date": "2024-11-09",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 1212.6,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 969,
+      "policy_id": 1222,
+      "pet_name": "Kevin",
+      "species": "Dog",
+      "claim_date": "2024-08-25",
+      "claim_type": "Surgery",
+      "claim_amount": 1053.53,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 970,
+      "policy_id": 1064,
+      "pet_name": "Chad",
+      "species": "Cat",
+      "claim_date": "2024-10-27",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1502.12,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 971,
+      "policy_id": 1026,
+      "pet_name": "Matthew",
+      "species": "Cat",
+      "claim_date": "2023-12-31",
+      "claim_type": "Medication",
+      "claim_amount": 454.33,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 972,
+      "policy_id": 1520,
+      "pet_name": "Jose",
+      "species": "Dog",
+      "claim_date": "2024-04-21",
+      "claim_type": "Surgery",
+      "claim_amount": 1506.79,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 973,
+      "policy_id": 1896,
+      "pet_name": "Patricia",
+      "species": "Dog",
+      "claim_date": "2024-06-06",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 442.93,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 974,
+      "policy_id": 1159,
+      "pet_name": "Sharon",
+      "species": "Cat",
+      "claim_date": "2024-08-23",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 79.64,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 975,
+      "policy_id": 1967,
+      "pet_name": "Frank",
+      "species": "Cat",
+      "claim_date": "2024-03-05",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 1319.88,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 976,
+      "policy_id": 1326,
+      "pet_name": "Peter",
+      "species": "Dog",
+      "claim_date": "2024-02-22",
+      "claim_type": "Surgery",
+      "claim_amount": 162.73,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 977,
+      "policy_id": 1813,
+      "pet_name": "Danny",
+      "species": "Dog",
+      "claim_date": "2023-11-21",
+      "claim_type": "Vaccination",
+      "claim_amount": 322.65,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 978,
+      "policy_id": 1528,
+      "pet_name": "Jamie",
+      "species": "Cat",
+      "claim_date": "2024-04-01",
+      "claim_type": "Surgery",
+      "claim_amount": 458.89,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 979,
+      "policy_id": 1531,
+      "pet_name": "Stephanie",
+      "species": "Dog",
+      "claim_date": "2024-09-08",
+      "claim_type": "Medication",
+      "claim_amount": 1024.0,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 980,
+      "policy_id": 1056,
+      "pet_name": "Jackie",
+      "species": "Cat",
+      "claim_date": "2024-09-23",
+      "claim_type": "Dental Care",
+      "claim_amount": 736.64,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 981,
+      "policy_id": 1139,
+      "pet_name": "Kari",
+      "species": "Cat",
+      "claim_date": "2024-08-28",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1582.72,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 982,
+      "policy_id": 1116,
+      "pet_name": "Leslie",
+      "species": "Cat",
+      "claim_date": "2024-07-25",
+      "claim_type": "Dental Care",
+      "claim_amount": 201.43,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 983,
+      "policy_id": 1121,
+      "pet_name": "Rita",
+      "species": "Cat",
+      "claim_date": "2023-12-02",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 329.92,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 984,
+      "policy_id": 1389,
+      "pet_name": "William",
+      "species": "Dog",
+      "claim_date": "2023-11-14",
+      "claim_type": "Dental Care",
+      "claim_amount": 716.59,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 985,
+      "policy_id": 1993,
+      "pet_name": "Seth",
+      "species": "Cat",
+      "claim_date": "2024-04-06",
+      "claim_type": "Vaccination",
+      "claim_amount": 779.88,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 986,
+      "policy_id": 1945,
+      "pet_name": "Anthony",
+      "species": "Dog",
+      "claim_date": "2024-06-09",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 933.0,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 987,
+      "policy_id": 1376,
+      "pet_name": "Jeffrey",
+      "species": "Dog",
+      "claim_date": "2024-03-31",
+      "claim_type": "Dental Care",
+      "claim_amount": 371.29,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 988,
+      "policy_id": 1021,
+      "pet_name": "Cynthia",
+      "species": "Cat",
+      "claim_date": "2024-09-12",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 84.41,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 989,
+      "policy_id": 1357,
+      "pet_name": "Jessica",
+      "species": "Cat",
+      "claim_date": "2024-09-17",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 294.13,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 990,
+      "policy_id": 1974,
+      "pet_name": "Logan",
+      "species": "Dog",
+      "claim_date": "2024-03-21",
+      "claim_type": "Surgery",
+      "claim_amount": 1387.86,
+      "status": "Pending"
+    },
+    {
+      "claim_id": 991,
+      "policy_id": 1156,
+      "pet_name": "Shirley",
+      "species": "Dog",
+      "claim_date": "2024-09-23",
+      "claim_type": "Dental Care",
+      "claim_amount": 703.25,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 992,
+      "policy_id": 1522,
+      "pet_name": "Jennifer",
+      "species": "Cat",
+      "claim_date": "2024-04-11",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 764.18,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 993,
+      "policy_id": 1619,
+      "pet_name": "April",
+      "species": "Dog",
+      "claim_date": "2024-09-27",
+      "claim_type": "Emergency Treatment",
+      "claim_amount": 1311.02,
+      "status": "Denied"
+    },
+    {
+      "claim_id": 994,
+      "policy_id": 1108,
+      "pet_name": "Sarah",
+      "species": "Dog",
+      "claim_date": "2024-10-20",
+      "claim_type": "Vaccination",
+      "claim_amount": 1089.19,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 995,
+      "policy_id": 1961,
+      "pet_name": "Nicholas",
+      "species": "Dog",
+      "claim_date": "2024-06-25",
+      "claim_type": "Surgery",
+      "claim_amount": 64.48,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 996,
+      "policy_id": 1986,
+      "pet_name": "April",
+      "species": "Cat",
+      "claim_date": "2023-11-27",
+      "claim_type": "Vet Treatment",
+      "claim_amount": 482.77,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 997,
+      "policy_id": 1178,
+      "pet_name": "Jeffery",
+      "species": "Cat",
+      "claim_date": "2024-03-06",
+      "claim_type": "Routine Checkup",
+      "claim_amount": 645.57,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 998,
+      "policy_id": 1670,
+      "pet_name": "Jeffery",
+      "species": "Cat",
+      "claim_date": "2024-10-25",
+      "claim_type": "Medication",
+      "claim_amount": 654.7,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 999,
+      "policy_id": 1149,
+      "pet_name": "Kelly",
+      "species": "Cat",
+      "claim_date": "2024-08-01",
+      "claim_type": "Vaccination",
+      "claim_amount": 1399.39,
+      "status": "Approved"
+    },
+    {
+      "claim_id": 1000,
+      "policy_id": 1674,
+      "pet_name": "Tiffany",
+      "species": "Dog",
+      "claim_date": "2024-08-15",
+      "claim_type": "Vaccination",
+      "claim_amount": 664.59,
+      "status": "Pending"
+    }
+  ]
+}
